@@ -10,7 +10,6 @@ This repository contains:
 - **Personas** — Expert judgment lenses that can be composed into AI agents
 - **Teams** — Pre-configured persona compositions for specific projects
 - **Tasks** — Ready-to-use prompts for everyday life (meal planning, resume review, etc.)
-- **Instructions** — Technical workflows and execution directives
 
 ## Repository Structure
 
@@ -21,10 +20,8 @@ master-prompts/
 ├── 02_reasoning/           # Decision-making and judgment frameworks
 ├── 03_personas/            # Expert personas (yin/yang model)
 ├── 04_response-standards/  # Output quality and expression discipline
-├── 05_teams/               # Persona compositions for projects
+├── 05_teams/               # Persona compositions for projects (private)
 └── 06_tasks/               # Ready-to-use prompts for everyday life
-
-instructions/               # Technical workflows and execution directives
 ```
 
 ## Philosophy
