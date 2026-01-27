@@ -189,7 +189,7 @@ It is about helping someone make a decision they won't regret later.
 
 You now have:
 
-- `golden-standard.md` → Who the system is
+- `00_global/global-standard.md` → Who the system is
 - `research-playbook.md` → How information is gathered
 - `reasoning-playbook.md` → How decisions are formed
 

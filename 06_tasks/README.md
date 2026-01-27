@@ -17,11 +17,12 @@ Tasks are:
 
 Tasks help you:
 
-- Plan meals and organize your life
-- Improve productivity and communication
-- Create professional documents
+- Learn new skills and understand complex topics
+- Help others learn and solve problems
+- Optimize boring but necessary tasks (grocery shopping, budgeting, etc.)
+- Build systems for positive outcomes (habits, productivity, organization)
 - Make better decisions
-- Learn new skills effectively
+- Create professional documents
 
 ## What Tasks Are Not
 
@@ -29,10 +30,13 @@ Tasks are not:
 
 - Expert personas (those are in `03_personas/`)
 - Team compositions (those are in `05_teams/`)
-- Technical workflows (those are in `instructions/`)
 - Foundational standards (those are in `00_global/`, `01_research/`, etc.)
 
-Tasks are practical, everyday prompts that anyone can use.
+Tasks are practical prompts focused on:
+- **Helping** — Supporting others in learning and problem-solving
+- **Learning** — Building skills and understanding (simple and complex)
+- **Positive outcomes** — Creating systems for better life results
+- **Efficiency** — Making boring but necessary tasks easier
 
 ## How Tasks Relate to the System
 
@@ -49,12 +53,12 @@ Tasks may optionally suggest relevant personas when they would add value, but ta
 
 Tasks are organized by category:
 
-- **Lifestyle** — Meal planning, travel, home organization, health
-- **Productivity** — Email management, task prioritization, time management
-- **Organization** — File systems, note-taking, calendar management
-- **Documents** — Resumes, cover letters, proposals, reports
-- **Communication** — Email drafting, difficult conversations, presentations
-- **Learning** — Skill development, research, study plans
+- **Helping** — Teaching, mentoring, helping others learn or solve problems
+- **Learning** — Skill development, research deep dives, learning from mistakes
+- **Lifestyle** — Meal planning, grocery optimization, budget planning, home organization
+- **Organization** — File systems, note-taking, systems that make life easier
+- **Documents** — Resumes, cover letters, professional documents
+- **Productivity** — Complex productivity systems, habit formation, workflow optimization
 - **Decision-Making** — Purchase decisions, career choices, life changes
 
 ## How to Use Tasks

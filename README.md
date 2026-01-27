@@ -14,7 +14,6 @@ This repository contains:
 ## Repository Structure
 
 ```
-master-prompts/
 ├── 00_global/              # Core identity and operating standards
 ├── 01_research/            # Research quality and source discipline
 ├── 02_reasoning/           # Decision-making and judgment frameworks
@@ -42,10 +41,11 @@ This system is built on the principle that **quality inputs create quality outpu
 
 ## Getting Started
 
-1. Browse the `master-prompts/` directory to understand the system
-2. Check out `06_tasks/` for ready-to-use prompts
-3. Explore `03_personas/` to understand expert judgment lenses
-4. Review `05_teams/` to see how personas are composed
+1. Start with `00_global/` to understand the core operating standards
+2. Review `01_research/` and `02_reasoning/` for quality foundations
+3. Check out `06_tasks/` for ready-to-use prompts
+4. Explore `03_personas/` to understand expert judgment lenses
+5. Review `04_response-standards/` for output quality guidelines
 
 ## Design Principles
 
