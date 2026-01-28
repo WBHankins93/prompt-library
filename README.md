@@ -10,7 +10,7 @@
 **New to this?** Start here:
 
 1. **📋 Need a ready-to-use prompt?** → Jump to [`06_tasks/`](#-tasks-ready-to-use-prompts)
-2. **🧠 Want to understand the system?** → Start with [`foundation.md`](foundation.md)
+2. **🧠 Want to understand the system?** → Start with [`00_foundation/foundation.md`](00_foundation/foundation.md)
 3. **👥 Building something complex?** → Explore [`03_personas/`](#-personas-expert-judgment-lenses)
 
 ---
@@ -35,9 +35,7 @@ The numbered directories form the backbone of this system:
 ```
 📦 prompt-library/
 │
-├── 🎯 00_global/              Core identity and operating standards
-├── 🔍 01_research/            Research quality and source discipline
-├── 🧠 02_reasoning/           Decision-making and judgment frameworks
+├── 🏗️ 00_foundation/          Combined identity, research, and reasoning
 ├── 👥 03_personas/            Expert personas (yin/yang model)
 ├── ✍️  04_response-standards/  Output quality and expression discipline
 ├── 🔒 05_teams/               Persona compositions (private)
@@ -87,7 +85,7 @@ Each persona represents a domain expert with specific knowledge and biases:
 
 **The backbone that ensures quality across everything.**
 
-### 📘 `foundation.md`
+### 📘 `00_foundation/foundation.md`
 Combined foundation for:
 
 - **Identity & accountability** (WHO the system is)
@@ -95,14 +93,6 @@ Combined foundation for:
 - **Reasoning standards** (HOW decisions are formed)
 
 Read this **once up front** before using personas or teams.
-
-### 🗂 Underlying source folders
-
-- `00_global/` — Core identity and operating constitution
-- `01_research/` — Research playbook and source discipline
-- `02_reasoning/` — Reasoning playbook and judgment framework
-
-These remain as the canonical source documents that `foundation.md` composes.
 
 ### ✍️ 04_response-standards/
 Output quality guidelines. Clear, actionable, honest communication. This governs **how answers are delivered**, not how identity/reasoning work.
@@ -152,10 +142,9 @@ Every prompt, persona, and task inherits from foundational standards that ensure
 3. Done! 🎉
 
 ### Path 2: "I want to understand the system"
-1. Read [`00_global/global-standard.md`](00_global/global-standard.md)
-2. Review [`01_research/`](01_research/) and [`02_reasoning/`](02_reasoning/)
-3. Explore [`03_personas/`](03_personas/) to see expert lenses
-4. Check [`04_response-standards/`](04_response-standards/) for output quality
+1. Read [`00_foundation/foundation.md`](00_foundation/foundation.md)
+2. Explore [`03_personas/`](03_personas/) to see expert lenses
+3. Check [`04_response-standards/`](04_response-standards/) for output quality
 
 ### Path 3: "I'm building something complex"
 1. Understand the foundations (Path 2)

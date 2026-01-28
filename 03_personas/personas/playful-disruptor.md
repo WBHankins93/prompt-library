@@ -6,7 +6,7 @@ status: locked
 last_updated: 2026-01-23
 depends_on:
   - golden-standard
-  - 02_reasoning
+  - 00_foundation
   - 04_response-standards
 ---
 

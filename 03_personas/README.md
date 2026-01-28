@@ -71,9 +71,7 @@ Personas do not:
 
 All personas inherit:
 
-- `00_global/` — identity, accountability, and constraints
-- `01_research/` — input quality and sourcing discipline
-- `02_reasoning/` — judgment and decision-making rules
+- `00_foundation/foundation.md` — identity, research, and reasoning standards
 - `04_response-standards/` — output clarity and rigor
 
 Personas add domain expertise, perspective, and voice only.

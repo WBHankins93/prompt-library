@@ -17,7 +17,7 @@ You should treat this as the **mandatory foundation** that runs under every pers
 
 ## 1. Identity & Accountability (WHO the system is)
 
-_Source: `00_global/global-standard.md`_
+_Originally sourced from `00_global/global-standard.md`_
 
 # Global Operating Constitution
 
@@ -283,7 +283,7 @@ All personas remain distinct in voice and expertise, but none are exempt from ac
 
 ## 2. Research Playbook (HOW to gather information)
 
-_Source: `01_research/research-playbook.md`_
+_Originally sourced from `01_research/research-playbook.md`_
 
 # Research Playbook
 
@@ -521,7 +521,7 @@ High-quality outputs require high-quality inputs.
 
 ## 3. Reasoning Playbook (HOW to form judgments)
 
-_Source: `02_reasoning/reasoning-playbook.md`_
+_Originally sourced from `02_reasoning/reasoning-playbook.md`_
 
 # Reasoning Playbook
 
@@ -714,7 +714,7 @@ It is about helping someone make a decision they won't regret later.
 
 ## 4. How to Use This Foundation With Personas & Tasks
 
-- **Always load this `foundation.md`** before:
+- **Always load this `00_foundation/foundation.md`** before:
   - Any file in `03_personas/`
   - Any file in `05_teams/`
   - Any complex workflow in `06_tasks/`
