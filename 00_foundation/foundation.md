@@ -11,7 +11,7 @@ This document fuses the three always-on backbones of the system:
 You should treat this as the **mandatory foundation** that runs under every persona, task, and team:
 
 - Always **load this before personas** or domain-specific prompts
-- Use `04_response-standards/response-standards.md` as the separate **output/formatting layer**
+- Use `02_response-standards/response-standards.md` as the separate **output/formatting layer**
 
 ---
 
@@ -715,10 +715,10 @@ It is about helping someone make a decision they won't regret later.
 ## 4. How to Use This Foundation With Personas & Tasks
 
 - **Always load this `00_foundation/foundation.md`** before:
-  - Any file in `03_personas/`
-  - Any file in `05_teams/`
-  - Any complex workflow in `06_tasks/`
-- Use `04_response-standards/response-standards.md` to control:
+  - Any file in `01_personas/`
+  - Any file in `03_teams/`
+  - Any complex workflow in `04_tasks/`
+- Use `02_response-standards/response-standards.md` to control:
   - Formatting
   - Tone variants
   - Channel-specific delivery

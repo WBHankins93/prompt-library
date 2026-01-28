@@ -9,9 +9,9 @@
 
 **New to this?** Start here:
 
-1. **📋 Need a ready-to-use prompt?** → Jump to [`06_tasks/`](#-tasks-ready-to-use-prompts)
+1. **📋 Need a ready-to-use prompt?** → Jump to [`04_tasks/`](#-tasks-ready-to-use-prompts)
 2. **🧠 Want to understand the system?** → Start with [`00_foundation/foundation.md`](00_foundation/foundation.md)
-3. **👥 Building something complex?** → Explore [`03_personas/`](#-personas-expert-judgment-lenses)
+3. **👥 Building something complex?** → Explore [`01_personas/`](#-personas-expert-judgment-lenses)
 
 ---
 
@@ -36,10 +36,10 @@ The numbered directories form the backbone of this system:
 📦 prompt-library/
 │
 ├── 🏗️ 00_foundation/          Combined identity, research, and reasoning
-├── 👥 03_personas/            Expert personas (yin/yang model)
-├── ✍️  04_response-standards/  Output quality and expression discipline
-├── 🔒 05_teams/               Persona compositions (private)
-└── 📋 06_tasks/               Ready-to-use prompts for everyday life
+├── 👥 01_personas/            Expert personas (yin/yang model)
+├── ✍️  02_response-standards/  Output quality and expression discipline
+├── 🔒 03_teams/               Persona compositions (private)
+└── 📋 04_tasks/               Ready-to-use prompts for everyday life
 ```
 
 ---
@@ -48,7 +48,7 @@ The numbered directories form the backbone of this system:
 
 **Start here if you want to use AI right away!**
 
-The `06_tasks/` directory contains prompts you can copy and use immediately:
+The `04_tasks/` directory contains prompts you can copy and use immediately:
 
 - 🍽️ **Lifestyle** — Meal planning, grocery optimization, budget planning
 - ⚡ **Productivity** — Habit formation, time management
@@ -58,7 +58,7 @@ The `06_tasks/` directory contains prompts you can copy and use immediately:
 - 🤝 **Helping** — Mentoring, giving feedback
 - 📁 **Organization** — File naming, system design
 
-👉 **[Browse all tasks →](06_tasks/)**
+👉 **[Browse all tasks →](04_tasks/)**
 
 ---
 
@@ -75,9 +75,9 @@ Each persona represents a domain expert with specific knowledge and biases:
 - 🛠️ **Tech Wizard** — Technical architecture, implementation
 - 📖 **Storyteller** — Narrative, communication, engagement
 - 🔍 **Red Team** — Critical thinking, challenge assumptions
-- ...and [many more](03_personas/)
+- ...and [many more](01_personas/)
 
-👉 **[Explore all personas →](03_personas/)**
+👉 **[Explore all personas →](01_personas/)**
 
 ---
 
@@ -94,7 +94,7 @@ Combined foundation for:
 
 Read this **once up front** before using personas or teams.
 
-### ✍️ 04_response-standards/
+### ✍️ 02_response-standards/
 Output quality guidelines. Clear, actionable, honest communication. This governs **how answers are delivered**, not how identity/reasoning work.
 
 ---
@@ -137,18 +137,18 @@ Every prompt, persona, and task inherits from foundational standards that ensure
 ## 🚀 Getting Started Paths
 
 ### Path 1: "I just want to use AI better"
-1. Browse [`06_tasks/`](06_tasks/) for your use case
+1. Browse [`04_tasks/`](04_tasks/) for your use case
 2. Copy a prompt and customize it
 3. Done! 🎉
 
 ### Path 2: "I want to understand the system"
 1. Read [`00_foundation/foundation.md`](00_foundation/foundation.md)
-2. Explore [`03_personas/`](03_personas/) to see expert lenses
-3. Check [`04_response-standards/`](04_response-standards/) for output quality
+2. Explore [`01_personas/`](01_personas/) to see expert lenses
+3. Check [`02_response-standards/`](02_response-standards/) for output quality
 
 ### Path 3: "I'm building something complex"
 1. Understand the foundations (Path 2)
-2. Review [`05_teams/`](05_teams/) examples (if you have access)
+2. Review [`03_teams/`](03_teams/) examples (if you have access)
 3. Compose personas for your specific needs
 4. Create custom tasks or teams
 
