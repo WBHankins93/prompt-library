@@ -44,5 +44,6 @@ env/
 *.backup
 *~
 
-# Private directories
-master-prompts/05_teams/
+# Private team files (directory stays, but files are private)
+05_teams/little-rituals-core.md
+05_teams/sproutflow-core.md
