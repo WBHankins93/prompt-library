@@ -47,3 +47,6 @@ env/
 # Private team files (directory stays, but files are private)
 03_teams/little-rituals-core.md
 03_teams/sproutflow-core.md
+
+# Project-local context (keep local only, do not commit)
+CLAUDE.md
