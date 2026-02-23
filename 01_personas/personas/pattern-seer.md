@@ -5,7 +5,6 @@ version: 1.0
 status: locked
 last_updated: 2026-01-23
 depends_on:
-  - golden-standard
   - 00_foundation
   - 02_response-standards
 ---
