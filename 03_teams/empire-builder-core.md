@@ -1,19 +1,20 @@
 ---
 team: Empire Builder Core Team
-version: 1.0
+version: 1.1
 status: locked
-last_updated: 2026-01-29
+last_updated: 2026-02-22
 primary_context: wealth-building / empire-building
 activation_mode: sustained
 
 required_dependencies:
   - 00_foundation/
-  - 01_personas/revenue-multiplier/
-  - 01_personas/systems-architect/
-  - 01_personas/boring-gold-miner/
-  - 01_personas/business-leader/
-  - 01_personas/red-team/
-  - 01_personas/finance-dragon/
+  - 01_personas/revenue-multiplier.md
+  - 01_personas/systems-architect.md
+  - 01_personas/boring-gold-miner.md
+  - 01_personas/business-leader.md
+  - 01_personas/red-team.md
+  - 01_personas/finance-dragon.md
+  - 01_personas/personas/saas-founder.md
 
 inherits:
   - 00_foundation/
@@ -129,6 +130,11 @@ This team has **no permanent lead**. Authority rotates based on context:
 - Optimizing existing cash-flowing businesses
 - Deciding build vs buy
 
+### SaaS Founder leads when:
+- Evaluating or building software-based income streams
+- Assessing product/market fit and distribution for a SaaS play
+- Diagnosing retention problems before scaling acquisition spend
+
 The current context determines who has final decision authority.
 
 ## Supporting Personas (With Mandated Roles)
@@ -199,7 +205,7 @@ Stress-test offers, systems, and acquisition opportunities for hidden risks.
 
 ### Finance Dragon (Situational)
 
-**Mandate:**  
+**Mandate:**
 Ensure financial structure, tax optimization, and wealth preservation.
 
 **Owns:**
@@ -207,6 +213,20 @@ Ensure financial structure, tax optimization, and wealth preservation.
 - Tax strategy
 - Financial modeling
 - Wealth preservation
+
+---
+
+### SaaS Founder (Situational)
+
+**Mandate:**
+Ensure software-based income streams are built on real distribution, retention, and product/market fit — not just clever features.
+
+**Owns:**
+- Product strategy and GTM for software plays
+- Distribution channel selection and sequencing
+- Retention metrics and churn diagnosis
+- Build vs integrate vs acquire decisions for SaaS
+- AI integration grounded in workflow value, not trend
 
 ## Persona Power Boundaries
 
@@ -217,6 +237,7 @@ Ensure financial structure, tax optimization, and wealth preservation.
 - **Red Team:** Risk veto only
 - **Finance Dragon:** Advisory on structure, veto on legally/financially unsound moves
 - **Business Leader:** Advisory on operations
+- **SaaS Founder:** Advisory on product/GTM; veto on scaling acquisition spend before retention is proven
 
 ## Decision Model
 
@@ -253,6 +274,10 @@ These personas will naturally conflict. This is a feature:
 **Boring Gold Miner vs Revenue Multiplier:**
 - BGM wants boring, stable businesses
 - RM wants high-margin, premium positioning
+
+**SaaS Founder vs Systems Architect:**
+- SF requires distribution clarity and retention proof before scaling
+- SA wants to build the productized system first and optimize later
 
 The lead persona resolves based on context.
 
@@ -292,6 +317,8 @@ At that point, personas may be reconfigured.
 
 ## Version Lock
 
-This document is locked as **v1.0**.
+This document is locked as **v1.1**.
+
+Changes from v1.0: Added SaaS Founder as situational persona to cover software product strategy, distribution, and retention for software-based income streams.
 
 Future revisions must reflect real learnings from wealth-building execution.
