@@ -18,7 +18,7 @@ This system is model-agnostic. It works in Claude, ChatGPT, Gemini, or any AI th
 
 **New to this?** Start here:
 
-1. **Need a ready-to-use prompt?** → Jump to [`04_tasks/`](#tasks-ready-to-use-prompts)
+1. **Need a ready-to-use prompt?** → Jump to [`03_tasks/`](#tasks-ready-to-use-prompts)
 2. **Want to understand the system?** → Start with [`00_foundation/foundation.md`](00_foundation/foundation.md)
 3. **Want expert-level advice?** → Explore [`02_personas/`](#personas-expert-judgment-lenses)
 4. **Want to personalize the system?** → Read [`05_personal/`](05_personal/) for how to fork a persona for your own context
@@ -33,8 +33,8 @@ The numbered directories form the backbone of this system, in dependency load or
 00_foundation/          Identity, research, and reasoning standards
 01_response-standards/  Output quality and expression discipline
 02_personas/            Expert judgment lenses (yin/yang model)
-03_workflows/           Composed sequences — COMING IN MVP PHASE 2
-04_tasks/               Ready-to-use prompts for everyday life
+04_workflows/           Composed sequences — COMING IN MVP PHASE 2
+03_tasks/               Ready-to-use prompts for everyday life
 05_personal/            Personal persona customizations and team routing
 ```
 
@@ -46,7 +46,7 @@ The numbers are not decorative — they reflect load order. Foundation loads bef
 
 **Start here if you want to use AI right away.**
 
-The `04_tasks/` directory contains prompts you can copy and use immediately:
+The `03_tasks/` directory contains prompts you can copy and use immediately:
 
 - **Lifestyle** — Meal planning, grocery optimization, budget planning
 - **Productivity** — Habit formation, time management
@@ -56,7 +56,7 @@ The `04_tasks/` directory contains prompts you can copy and use immediately:
 - **Helping** — Mentoring, giving feedback
 - **Organization** — File naming, system design
 
-**[Browse all tasks →](04_tasks/)**
+**[Browse all tasks →](03_tasks/)**
 
 ---
 
@@ -153,7 +153,7 @@ No technical background required to use the tasks. The persona and foundation la
 ## Getting Started Paths
 
 ### Path 1: "I just want to use AI better"
-1. Browse [`04_tasks/`](04_tasks/) for your use case
+1. Browse [`03_tasks/`](03_tasks/) for your use case
 2. Copy a prompt and customize it
 3. Done.
 

@@ -64,7 +64,7 @@ Each workflow file will define:
 ## What Does NOT Live Here
 
 Personas belong in `02_personas/`.
-Tasks belong in `04_tasks/`.
+Tasks belong in `03_tasks/`.
 Personal team compositions belong in `05_personal/teams/`.
 
 Workflows reference and orchestrate those components — they do not redefine them.
