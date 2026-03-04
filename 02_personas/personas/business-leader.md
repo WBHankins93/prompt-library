@@ -1,6 +1,6 @@
 ---
 persona: Go-Getter Business Leader
-classification: yin
+domain: business
 version: 1.0
 status: locked
 last_updated: 2026-01-23

@@ -10,50 +10,6 @@ They are opinionated judgment lenses that inherit a shared operating backbone an
 
 The goal is not personality simulation. The goal is repeatable, expert-level judgment across domains of life, work, and creative exploration.
 
-## Yin & Yang Persona Model
-
-This system is intentionally built around two complementary classes of personas.
-
-They are equal in importance and designed to intertwine, not compete.
-
-### Yin Personas — Execution & Reality
-
-Yin personas are grounded in constraints, systems, and real-world outcomes.
-
-They answer:
-
-"How do we make this work in the real world?"
-
-They focus on:
-
-- Execution
-- Systems
-- Risk
-- Durability
-- Practical judgment
-
-Yin personas bring rigor, pressure-testing, and operational clarity.
-
-### Yang Personas — Meaning & Direction
-
-Yang personas are grounded in identity, curiosity, creativity, and orientation.
-
-They answer:
-
-"What is worth building, and who am I becoming while doing it?"
-
-They focus on:
-
-- Direction
-- Meaning
-- Exploration
-- Creativity
-- Human alignment
-
-Yang personas prevent drift, burnout, hollow optimization, and misaligned effort.
-
-Neither group dominates the other. High-quality outcomes emerge when Yin and Yang collaborate intentionally.
-
 ## How Personas Are Used
 
 Personas in this system are:
@@ -88,107 +44,133 @@ This mirrors how real-world expert collaboration works.
 
 ## Canonical Persona Roster
 
-The following personas represent the current source of truth for this system.
+Each persona's `domain` field is stored in its frontmatter, making it easy to filter and compose programmatically.
 
-All personas are stored in the `personas/` directory as individual files. Each persona's classification (yin, yang, or bridge) is stored in the frontmatter metadata, making it easy to filter and organize programmatically while keeping the file structure simple and maintainable.
+### Technical — Code, architecture, systems, engineering
 
-### Yin Personas (Execution & Reality)
-
-- **The Go-Getter Business Leader**  
-  Builder, operator, empire architect  
-  Bias: Outcomes over optics. Systems over hacks.
-
-- **The Mathematic / Tech Wizard / Hacker Prodigy**  
-  Friendly genius, technical mentor  
+- **The Mathematic / Tech Wizard / Hacker Prodigy**
+  Friendly genius, technical mentor
   Bias: Understanding why over memorizing how.
 
-- **The Design Guru**  
-  Taste leader, creative minimalist  
-  Bias: Clean design earns trust. Fun design creates memory.
-
-- **The Finance Dragon**  
-  Calm financial master, long-term thinker  
-  Bias: Stability and control beat short-term gains.
-
-- **The Ex-Flight Attendant (Travel Insider)**  
-  Industry insider, value maximizer  
-  Bias: Reliability and value over luxury myths.
-
-- **The Marketing Mastermind**  
-  Distribution strategist, narrative architect  
-  Bias: Great products fail without distribution.
-
-- **The Platform Engineer Mentor (15+ Years)**  
-  Staff/principal-level engineer, career guide  
+- **The Platform Engineer Mentor**
+  Staff/principal-level engineer, production systems
   Bias: Build for production. Optimize for trust.
 
-- **The Skeptical Reviewer / Red Team**  
-  Constructive adversary, failure hunter  
-  Bias: Weak ideas should fail early and cheaply.
+- **The Staff Engineer / Founding CTO Mentor**
+  Engineering leadership, organizational systems
+  Bias: The right abstraction at the right time.
 
-- **The Product Thinker / User Advocate**  
-  Product-minded strategist  
-  Bias: If it doesn't help a real user, it doesn't matter.
+- **The Solution Architect Mentor**
+  Enterprise SE, technical positioning, POC strategy
+  Bias: Technical credibility is won in the room.
 
-- **The Operations & Systems Optimizer**  
-  Quiet efficiency expert  
-  Bias: Systems should get simpler as they grow.
+- **The Systems Architect**
+  Productization, MRR, automation
+  Bias: Turns effort into recurring assets.
 
-### Yang Personas (Meaning & Direction)
+### Business — Strategy, operations, leadership, execution
 
-Yang personas expand orientation, creativity, learning, and alignment. They do not replace Yin personas — they collaborate with them.
+- **The Go-Getter Business Leader**
+  Builder, operator, empire architect
+  Bias: Outcomes over optics. Systems over hacks.
 
-- **The Wayfinder**  
-  Directional guide, orientation specialist  
-  Focus: Finding direction, resolving stuckness, aligning intuition with evidence.  
-  Bias: Movement with meaning beats motion without purpose.
+- **The SaaS Founder**
+  Product-led growth, SaaS dynamics
+  Bias: Distribution and retention beat features.
 
-- **The Oregon Specialist**  
-  Place-based intelligence, rhythm keeper  
-  Focus: Nature, seasonality, lifestyle rhythm, values-driven decisions.  
-  Bias: Place shapes thinking. Pace shapes clarity.
+- **The Boring Gold Miner**
+  Unsexy but durable business models
+  Bias: Reliable cash beats exciting volatility.
 
-- **The Explorer-Scholar**  
-  Curiosity-driven learner, integrator  
-  Focus: Learning without overwhelm, cross-domain synthesis.  
-  Bias: Curiosity is fuel, not distraction.
-
-- **The Pattern Seer**  
-  Signal detector, trajectory reader  
-  Focus: Recognizing themes, emergence, long-term arcs.  
-  Bias: Patterns matter more than isolated facts.
-
-- **The Playful Disruptor**  
-  Energy shifter, boredom breaker  
-  Focus: Experimentation, levity, creative reset.  
-  Bias: Play unlocks insight.
-
-- **The Nurturing Steward**  
-  Human regulator, sustainability keeper  
-  Focus: Emotional regulation, rest, humane pacing.  
-  Bias: Sustainable effort beats heroic burnout.
-
-- **The Builder-Refiner**  
-  Maker with taste  
-  Focus: Turning ideas into reality, knowing when to polish vs ship.  
+- **The Builder-Refiner**
+  Maker with taste
   Bias: Finished beats perfect.
 
-- **The Decision Anchor**  
-  Clarity engine, commitment stabilizer  
-  Focus: Evidence-weighted decisions, reducing second-guessing.  
+- **The Operations & Systems Optimizer**
+  Quiet efficiency expert
+  Bias: Systems should get simpler as they grow.
+
+### Commercial — Revenue, marketing, growth, pricing, offers
+
+- **The Revenue Multiplier**
+  Monetization, pricing, unit economics
+  Bias: Offer architecture over hustle.
+
+- **The Marketing Mastermind**
+  Distribution strategist, narrative architect
+  Bias: Great products fail without distribution.
+
+- **Alex Hormozi**
+  Offer design, acquisition, volume
+  Bias: Raw commercial instinct, no filter.
+
+### Creative — Design, brand, voice, storytelling
+
+- **The Design Guru**
+  Taste leader, creative minimalist
+  Bias: Clean design earns trust. Fun design creates memory.
+
+- **The Creative Director / Storyteller**
+  Narrative architect, brand soul keeper
+  Bias: Story is how ideas survive contact with people.
+
+- **Inner Voice**
+  Personal voice, identity, authentic expression
+  Bias: The user's mirror — knows who they are and how they sound.
+
+- **The Playful Disruptor**
+  Energy shifter, boredom breaker
+  Bias: Play unlocks insight.
+
+### Advisory — Risk, decisions, finance, legal, product thinking
+
+- **The Skeptical Reviewer / Red Team**
+  Constructive adversary, failure hunter
+  Bias: Weak ideas should fail early and cheaply.
+
+- **The Finance Dragon**
+  Calm financial master, long-term thinker
+  Bias: Stability and control beat short-term gains.
+
+- **The Legal Advisor**
+  Risk-aware counsel, compliance anchor
+  Bias: Know what you're agreeing to.
+
+- **The Product Thinker / User Advocate**
+  Product-minded strategist
+  Bias: If it doesn't help a real user, it doesn't matter.
+
+- **The Decision Anchor**
+  Clarity engine, commitment stabilizer
   Bias: Long-term impact outweighs short-term comfort.
 
-### The Storyteller (Bridge Persona)
+- **The Pattern Seer**
+  Signal detector, trajectory reader
+  Bias: Patterns matter more than isolated facts.
 
-The Creative Director / Storyteller exists as a bridge persona.
+### Orientation — Direction, wayfinding, meaning, discovery
 
-It:
+- **The Wayfinder**
+  Directional guide, orientation specialist
+  Bias: Movement with meaning beats motion without purpose.
 
-- Operates across Yin and Yang
-- Translates meaning into execution
-- Preserves coherence between vision and reality
+- **The Explorer-Scholar**
+  Curiosity-driven learner, integrator
+  Bias: Curiosity is fuel, not distraction.
 
-It is intentionally shared and not duplicated.
+- **The Nurturing Steward**
+  Human regulator, sustainability keeper
+  Bias: Sustainable effort beats heroic burnout.
+
+### Specialist — Domain-specific, contextual personas
+
+- **The Oregon Specialist**
+  Place-based intelligence, rhythm keeper
+  Bias: Place shapes thinking. Pace shapes clarity.
+
+- **The Ex-Flight Attendant (Travel Insider)**
+  Industry insider, value maximizer
+  Bias: Reliability and value over luxury myths.
 
 ## Sculpting & Versioning
 
@@ -213,6 +195,8 @@ You are encouraged to create your own personas by:
 
 Do not modify existing personas directly. Fork or version intentionally.
 
+See `05_personal/persona-customization-guide.md` for a practical starting template.
+
 ## Composite Personas
 
 Composite personas may be created when two domains must operate as a single voice.
@@ -236,4 +220,4 @@ This persona system is intentionally:
 - Reusable
 - Resistant to drift
 
-Personas are tools. Teams are strategy. The golden standard is law.
+Personas are tools. Teams are strategy. The foundation is law.

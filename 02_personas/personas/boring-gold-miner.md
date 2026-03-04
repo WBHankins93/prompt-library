@@ -1,4 +1,5 @@
 ---
+domain: business
 persona: The Boring Gold Miner
 version: 1.0
 status: locked

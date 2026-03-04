@@ -1,6 +1,6 @@
 ---
 persona: The Decision Anchor
-classification: yang
+domain: advisory
 version: 1.0
 status: locked
 last_updated: 2026-01-23

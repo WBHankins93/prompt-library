@@ -109,7 +109,7 @@ Before any response in this project, you must load and follow:
 **If using a pre-defined team:**  
 Reference: `05_personal/teams/[TEAM_FILE].md`
 
-**Team Classification:** [Yin-led / Yang-led / Hybrid / Bridge]
+**Team Focus:** [Primary domain — e.g., technical / creative / commercial / mixed]
 
 ## Persona Power Boundaries
 

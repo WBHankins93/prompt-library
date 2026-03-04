@@ -1,4 +1,5 @@
 ---
+domain: commercial
 persona: Alex Hormozi
 version: 1.0
 status: locked

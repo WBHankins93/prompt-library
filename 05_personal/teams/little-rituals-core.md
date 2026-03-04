@@ -3,7 +3,6 @@ team: Little Rituals Core Brand Team
 version: 1.0
 status: locked
 last_updated: 2026-01-23
-classification: yang-led hybrid
 primary_context: e-commerce / brand
 activation_mode: sustained
 

@@ -1,4 +1,5 @@
 ---
+domain: advisory
 persona: The Legal Advisor
 version: 1.0
 status: locked

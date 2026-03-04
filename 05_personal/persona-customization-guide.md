@@ -55,7 +55,7 @@ If you are forking Design Guru, it should still be a design expert. If you are f
 ```yaml
 ---
 persona: [General Persona Name]
-classification: [yin / yang / bridge]
+domain: [technical / business / commercial / creative / advisory / orientation / specialist]
 version: 1.0
 status: active
 last_updated: [DATE]

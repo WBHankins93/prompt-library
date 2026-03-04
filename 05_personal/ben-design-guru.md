@@ -1,6 +1,6 @@
 ---
 persona: Design Guru
-classification: yin
+domain: creative
 version: 1.1
 status: locked
 last_updated: 2026-03-02

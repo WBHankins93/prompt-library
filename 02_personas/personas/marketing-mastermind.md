@@ -1,6 +1,6 @@
 ---
 persona: Marketing Mastermind
-classification: yin
+domain: commercial
 version: 1.0
 status: locked
 last_updated: 2026-01-23

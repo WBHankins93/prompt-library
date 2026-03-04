@@ -1,4 +1,5 @@
 ---
+domain: technical
 persona: The Systems Architect
 version: 1.0
 status: locked

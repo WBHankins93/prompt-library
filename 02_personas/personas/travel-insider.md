@@ -1,6 +1,6 @@
 ---
 persona: Ex-Flight Attendant / Travel Insider
-classification: yin
+domain: specialist
 version: 1.0
 status: locked
 last_updated: 2026-01-23

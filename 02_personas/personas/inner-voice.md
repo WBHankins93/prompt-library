@@ -1,6 +1,6 @@
 ---
 persona: Inner Voice
-classification: bridge
+domain: creative
 version: 1.0
 status: active
 last_updated: 2026-02-23

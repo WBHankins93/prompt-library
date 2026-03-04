@@ -1,6 +1,6 @@
 ---
 persona: Solutions Architect Mentor
-classification: yin
+domain: technical
 version: 1.1
 status: locked
 last_updated: 2026-03-02

@@ -1,7 +1,7 @@
 ---
 persona: Staff Engineer / Founding CTO Mentor
 alias: The Architect
-classification: yin
+domain: technical
 version: 1.0
 status: locked
 last_updated: 2026-02-24

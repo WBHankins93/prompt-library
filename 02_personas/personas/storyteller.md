@@ -1,6 +1,6 @@
 ---
 persona: Creative Director / Storyteller
-classification: bridge
+domain: creative
 version: 1.0
 status: locked
 last_updated: 2026-01-23

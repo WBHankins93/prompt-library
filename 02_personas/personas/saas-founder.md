@@ -1,4 +1,5 @@
 ---
+domain: business
 persona: The SaaS Founder
 version: 1.0
 status: locked

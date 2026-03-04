@@ -1,6 +1,6 @@
 ---
 persona: Product Thinker / User Advocate
-classification: yin
+domain: advisory
 version: 1.0
 status: locked
 last_updated: 2026-01-23

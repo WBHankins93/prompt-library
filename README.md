@@ -32,7 +32,7 @@ The numbered directories form the backbone of this system, in dependency load or
 ```
 00_foundation/          Identity, research, and reasoning standards
 01_response-standards/  Output quality and expression discipline
-02_personas/            Expert judgment lenses (yin/yang model)
+02_personas/            Expert judgment lenses (domain-organized)
 04_workflows/           Composed sequences — COMING IN MVP PHASE 2
 03_tasks/               Ready-to-use prompts for everyday life
 05_personal/            Personal persona customizations and team routing

@@ -3,7 +3,6 @@ team: Sproutflow Core Business Team
 version: 1.0
 status: locked
 last_updated: 2026-01-23
-classification: yin–yang hybrid
 primary_context: business
 activation_mode: sustained
 

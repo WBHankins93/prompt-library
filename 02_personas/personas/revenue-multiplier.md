@@ -1,4 +1,5 @@
 ---
+domain: commercial
 persona: The Revenue Multiplier
 version: 1.1
 status: locked
