@@ -29,18 +29,18 @@ Supporting artifacts: response templates per route type, confidence scoring, fal
 
 | File | Purpose | Status |
 |---|---|---|
-| `03_teams/classifier.md` | Intent taxonomy + trigger signals | to build |
-| `03_teams/routing-table.md` | Intent → persona stack mappings + composite routes | to build |
-| `03_teams/load-order.md` | Fixed sequence protocol for persona activation | to build |
-| `03_teams/response-templates.md` | Output skeletons per route type | to build |
-| `03_teams/team-composition.md` | Updated with auto-router block + fallback logic | to update |
+| `05_personal/teams/classifier.md` | Intent taxonomy + trigger signals | to build |
+| `05_personal/teams/routing-table.md` | Intent → persona stack mappings + composite routes | to build |
+| `05_personal/teams/load-order.md` | Fixed sequence protocol for persona activation | to build |
+| `05_personal/teams/response-templates.md` | Output skeletons per route type | to build |
+| `05_personal/teams/team-composition.md` | Updated with auto-router block + fallback logic | to update |
 | `00_foundation/CLAUDE-template.md` | Add Routing Mode section (AUTO / MANUAL / HYBRID) | to update |
 
 ---
 
 ## Step 1 — Build the Request Classifier
 
-**File:** `03_teams/classifier.md`
+**File:** `05_personal/teams/classifier.md`
 
 Define an intent taxonomy. Each intent has trigger signals (keywords, phrasing patterns, context clues). Each intent maps to a persona stack in `routing-table.md`.
 
@@ -69,7 +69,7 @@ Define an intent taxonomy. Each intent has trigger signals (keywords, phrasing p
 
 ## Step 2 — Define Persona Stack Mappings
 
-**File:** `03_teams/routing-table.md`
+**File:** `05_personal/teams/routing-table.md`
 
 A lookup table: intent → persona configuration.
 
@@ -107,7 +107,7 @@ Ambiguous requests with low confidence: activate Wayfinder. State assumption. As
 
 ## Step 3 — Build the Auto-Router Prompt Block
 
-**Destination:** Embedded in `03_teams/team-composition.md`
+**Destination:** Embedded in `05_personal/teams/team-composition.md`
 
 This block runs before every response. It is the execution engine of the system.
 
@@ -133,7 +133,7 @@ The "surface active personas" step is non-negotiable — it makes routing visibl
 
 ## Step 4 — Define Load Order Protocol
 
-**File:** `03_teams/load-order.md`
+**File:** `05_personal/teams/load-order.md`
 
 Fixed activation sequence to ensure consistent context loading.
 
@@ -157,7 +157,7 @@ NEVER LOAD:
 
 ## Step 5 — Add Confidence Scoring + Fallback
 
-**Destination:** Embedded in `03_teams/team-composition.md`
+**Destination:** Embedded in `05_personal/teams/team-composition.md`
 
 The router must handle ambiguous requests without failing silently.
 
@@ -180,7 +180,7 @@ The router must handle ambiguous requests without failing silently.
 
 ## Step 6 — Response Structure Templates Per Route
 
-**File:** `03_teams/response-templates.md`
+**File:** `05_personal/teams/response-templates.md`
 
 Each route type gets a defined output skeleton. This is what makes responses predictable regardless of topic.
 

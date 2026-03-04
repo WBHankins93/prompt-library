@@ -8,17 +8,17 @@ activation_mode: sustained
 
 required_dependencies:
   - 00_foundation/
-  - 01_personas/revenue-multiplier.md
-  - 01_personas/systems-architect.md
-  - 01_personas/boring-gold-miner.md
-  - 01_personas/business-leader.md
-  - 01_personas/red-team.md
-  - 01_personas/finance-dragon.md
-  - 01_personas/personas/saas-founder.md
+  - 02_personas/revenue-multiplier.md
+  - 02_personas/systems-architect.md
+  - 02_personas/boring-gold-miner.md
+  - 02_personas/business-leader.md
+  - 02_personas/red-team.md
+  - 02_personas/finance-dragon.md
+  - 02_personas/personas/saas-founder.md
 
 inherits:
   - 00_foundation/
-  - 02_response-standards/
+  - 01_response-standards/
 ---
 
 # Empire Builder Core Team

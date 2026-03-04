@@ -72,7 +72,7 @@ Personas do not:
 All personas inherit:
 
 - `00_foundation/foundation.md` — identity, research, and reasoning standards
-- `02_response-standards/` — output clarity and rigor
+- `01_response-standards/` — output clarity and rigor
 
 Personas add domain expertise, perspective, and voice only.
 

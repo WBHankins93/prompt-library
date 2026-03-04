@@ -4,8 +4,8 @@ version: 1.0
 status: active
 last_updated: 2026-03-03
 depends_on:
-  - 03_teams/routing-table.md
-  - 03_teams/team-composition.md
+  - 05_personal/teams/routing-table.md
+  - 05_personal/teams/team-composition.md
 ---
 
 # Request Classifier

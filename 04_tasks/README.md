@@ -28,8 +28,8 @@ Tasks help you:
 
 Tasks are not:
 
-- Expert personas (those are in `01_personas/`)
-- Team compositions (those are in `03_teams/`)
+- Expert personas (those are in `02_personas/`)
+- Team compositions (those are in `05_personal/teams/`)
 - Foundational standards (those are in `00_foundation/`)
 
 Tasks are practical prompts focused on:
@@ -43,7 +43,7 @@ Tasks are practical prompts focused on:
 All tasks inherit quality standards from:
 
 - `00_foundation/foundation.md` — Identity, research, and reasoning standards
-- `02_response-standards/` — Clear, actionable outputs
+- `01_response-standards/` — Clear, actionable outputs
 
 Tasks may optionally suggest relevant personas when they would add value, but tasks work perfectly fine on their own.
 

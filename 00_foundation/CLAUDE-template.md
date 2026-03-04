@@ -25,7 +25,7 @@ Before any response in this project, you must load and follow:
    - Research Standards (HOW to gather information)
    - Reasoning Standards (HOW to form judgments)
 
-2. **`02_response-standards/response-standards.md`**  
+2. **`01_response-standards/response-standards.md`**  
    - Output quality and expression discipline
    - Formatting, tone, and actionability standards
 
@@ -107,7 +107,7 @@ Before any response in this project, you must load and follow:
 ## Team Composition File
 
 **If using a pre-defined team:**  
-Reference: `03_teams/[TEAM_FILE].md`
+Reference: `05_personal/teams/[TEAM_FILE].md`
 
 **Team Classification:** [Yin-led / Yang-led / Hybrid / Bridge]
 
@@ -639,7 +639,7 @@ Created: 2026-01-29
 Last Updated: 2026-01-29
 
 This template is designed to work with the prompt-library foundation system.
-Always load 00_foundation/foundation.md and 02_response-standards/response-standards.md
+Always load 00_foundation/foundation.md and 01_response-standards/response-standards.md
 before applying project-specific context.
 
 Sections can be removed if not applicable to your project type.

@@ -4,8 +4,8 @@ version: 1.0
 status: active
 last_updated: 2026-03-03
 depends_on:
-  - 03_teams/classifier.md
-  - 03_teams/load-order.md
+  - 05_personal/teams/classifier.md
+  - 05_personal/teams/load-order.md
 ---
 
 # Routing Table
@@ -92,7 +92,7 @@ These are additive — they do not replace the routed stack. They add to it.
 
 ## Persona File Reference
 
-Quick lookup: intent → persona → file in `01_personas/personas/`
+Quick lookup: intent → persona → file in `02_personas/personas/`
 
 | Persona Name | File |
 |---|---|

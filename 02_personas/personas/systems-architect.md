@@ -5,7 +5,7 @@ status: locked
 last_updated: 2026-01-29
 depends_on:
   - 00_foundation
-  - 02_response-standards
+  - 01_response-standards
 ---
 
 # The Systems Architect

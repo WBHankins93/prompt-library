@@ -6,10 +6,10 @@ last_updated: 2026-03-03
 depends_on:
   - foundation.md
   - response-standards.md
-  - 03_teams/classifier.md
-  - 03_teams/routing-table.md
-  - 03_teams/load-order.md
-  - 03_teams/response-templates.md
+  - 05_personal/teams/classifier.md
+  - 05_personal/teams/routing-table.md
+  - 05_personal/teams/load-order.md
+  - 05_personal/teams/response-templates.md
 load_order: 3 (after foundation and response-standards, before any task)
 ---
 
@@ -111,7 +111,7 @@ Format:
 | **Alex Hormozi** | Offer design, acquisition, volume | Raw commercial instinct, no filter |
 | **Wayfinder** | Direction, orientation, disambiguation | Resolves stuckness; routes before answering |
 
-Full persona definitions: `01_personas/personas/`
+Full persona definitions: `02_personas/personas/`
 
 ---
 
@@ -228,7 +228,7 @@ The output should reflect that.
 
 | File | Purpose |
 |---|---|
-| `03_teams/classifier.md` | Full intent taxonomy with trigger signals |
-| `03_teams/routing-table.md` | Intent → persona stack mappings |
-| `03_teams/load-order.md` | Fixed persona activation sequence |
-| `03_teams/response-templates.md` | Output skeletons per route type |
+| `05_personal/teams/classifier.md` | Full intent taxonomy with trigger signals |
+| `05_personal/teams/routing-table.md` | Intent → persona stack mappings |
+| `05_personal/teams/load-order.md` | Fixed persona activation sequence |
+| `05_personal/teams/response-templates.md` | Output skeletons per route type |

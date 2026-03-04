@@ -5,7 +5,7 @@ status: locked
 last_updated: 2026-02-22
 depends_on:
   - 00_foundation
-  - 02_response-standards
+  - 01_response-standards
 ---
 
 # The SaaS Founder

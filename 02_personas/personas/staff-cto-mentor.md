@@ -7,7 +7,7 @@ status: locked
 last_updated: 2026-02-24
 depends_on:
   - 00_foundation
-  - 02_response-standards
+  - 01_response-standards
 ---
 
 # Staff Engineer / Founding CTO Mentor

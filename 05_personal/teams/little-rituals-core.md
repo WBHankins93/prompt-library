@@ -9,19 +9,19 @@ activation_mode: sustained
 
 required_dependencies:
   - 00_foundation/
-  - 01_personas/storyteller/
-  - 01_personas/design-guru/
-  - 01_personas/marketing-master/
-  - 01_personas/product-thinker/
-  - 01_personas/finance-dragon/
-  - 01_personas/business-leader/
-  - 01_personas/playful-disruptor/
-  - 01_personas/red-team/
-  - 01_personas/wayfinder/
+  - 02_personas/storyteller/
+  - 02_personas/design-guru/
+  - 02_personas/marketing-master/
+  - 02_personas/product-thinker/
+  - 02_personas/finance-dragon/
+  - 02_personas/business-leader/
+  - 02_personas/playful-disruptor/
+  - 02_personas/red-team/
+  - 02_personas/wayfinder/
 
 inherits:
   - 00_foundation/
-  - 02_response-standards/
+  - 01_response-standards/
 ---
 
 # Little Rituals Core Brand Team
