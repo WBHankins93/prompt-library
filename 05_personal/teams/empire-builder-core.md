@@ -8,13 +8,13 @@ activation_mode: sustained
 
 required_dependencies:
   - 00_foundation/
-  - 02_personas/revenue-multiplier.md
-  - 02_personas/systems-architect.md
-  - 02_personas/boring-gold-miner.md
-  - 02_personas/business-leader.md
-  - 02_personas/red-team.md
-  - 02_personas/finance-dragon.md
-  - 02_personas/personas/saas-founder.md
+  - 02_personas/commercial/revenue-multiplier.md
+  - 02_personas/technical/systems-architect.md
+  - 02_personas/business/boring-gold-miner.md
+  - 02_personas/business/business-leader.md
+  - 02_personas/advisory/red-team.md
+  - 02_personas/advisory/finance-dragon.md
+  - 02_personas/business/saas-founder.md
 
 inherits:
   - 00_foundation/

@@ -92,7 +92,7 @@ These are additive — they do not replace the routed stack. They add to it.
 
 ## Persona File Reference
 
-Quick lookup: intent → persona → file in `02_personas/personas/`
+Quick lookup: intent → persona → file in `02_personas/{domain}/`
 
 | Persona Name | File |
 |---|---|

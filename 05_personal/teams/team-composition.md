@@ -111,7 +111,7 @@ Format:
 | **Alex Hormozi** | Offer design, acquisition, volume | Raw commercial instinct, no filter |
 | **Wayfinder** | Direction, orientation, disambiguation | Resolves stuckness; routes before answering |
 
-Full persona definitions: `02_personas/personas/`
+Full persona definitions: `02_personas/{domain}/` (e.g., `02_personas/technical/`, `02_personas/creative/`)
 
 ---
 

@@ -8,15 +8,15 @@ activation_mode: sustained
 
 required_dependencies:
   - 00_foundation/
-  - 02_personas/business-leader/
-  - 02_personas/marketing-master/
-  - 02_personas/storyteller/
-  - 02_personas/design-guru/
-  - 02_personas/product-thinker/
-  - 02_personas/builder/
-  - 02_personas/red-team/
-  - 02_personas/disruptor/
-  - 02_personas/tech-wizard/
+  - 02_personas/business/business-leader.md
+  - 02_personas/commercial/marketing-mastermind.md
+  - 02_personas/creative/storyteller.md
+  - 02_personas/creative/design-guru.md
+  - 02_personas/advisory/product-thinker.md
+  - 02_personas/business/builder-refiner.md
+  - 02_personas/advisory/red-team.md
+  - 02_personas/creative/playful-disruptor.md
+  - 02_personas/technical/tech-wizard.md
 
 inherits:
   - 00_foundation/
