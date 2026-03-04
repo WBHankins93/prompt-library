@@ -131,6 +131,32 @@ Reference: `03_teams/[TEAM_FILE].md`
 
 These may be valuable elsewhere but create [SPECIFIC_PROBLEM] in this context.
 
+## Routing Mode
+
+<!-- Choose one. Default is AUTO. -->
+
+**Mode:** AUTO
+
+```
+AUTO    — team-composition.md classifies intent and selects the persona stack automatically.
+          No manual configuration required. Use this for most projects.
+
+MANUAL  — Specific personas are locked in for this project. Auto-routing is disabled.
+          List the active personas explicitly below.
+          Use when: the project has a narrow, stable domain and routing variance creates noise.
+
+HYBRID  — Auto-routing is active, but one or more personas are always included
+          regardless of intent classification. Useful when a persona should
+          always be present (e.g., Inner Voice on a writing-focused project,
+          Red Team on a high-stakes decision project).
+```
+
+<!-- For MANUAL mode: list active personas here -->
+<!-- Personas: [PERSONA_NAME_1], [PERSONA_NAME_2] -->
+
+<!-- For HYBRID mode: list always-on personas here -->
+<!-- Always include: [PERSONA_NAME] — Reason: [WHY_ALWAYS_ON] -->
+
 ---
 
 <!-- ================================================================ -->
