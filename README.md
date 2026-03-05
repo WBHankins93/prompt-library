@@ -33,8 +33,8 @@ The numbered directories form the backbone of this system, in dependency load or
 00_foundation/          Identity, research, and reasoning standards
 01_response-standards/  Output quality and expression discipline
 02_personas/            Expert judgment lenses (domain-organized)
-04_workflows/           Composed sequences — COMING IN MVP PHASE 2
 03_tasks/               Ready-to-use prompts for everyday life
+04_workflows/           Composed multi-stage playbooks
 05_personal/            Personal persona customizations and team routing
 ```
 
@@ -49,11 +49,11 @@ The numbers are not decorative — they reflect load order. Foundation loads bef
 The `03_tasks/` directory contains prompts you can copy and use immediately:
 
 - **Lifestyle** — Meal planning, grocery optimization, budget planning
-- **Productivity** — Habit formation, time management
-- **Documents** — Resume review, cover letters
-- **Learning** — Skill development, research deep-dives
-- **Decision-Making** — Purchase decisions, life choices
-- **Helping** — Mentoring, giving feedback
+- **Productivity** — Habit formation
+- **Documents** — Resume review, cover letter, interview preparation
+- **Learning** — Skill development, research deep-dives, learning from failure
+- **Decision-Making** — Purchase decisions
+- **Helping** — Mentoring, teaching
 - **Organization** — File naming, system design
 
 **[Browse all tasks →](03_tasks/)**
@@ -78,6 +78,20 @@ Each persona represents a domain expert with specific knowledge, biases, and aut
 **[Explore all personas →](02_personas/)**
 
 **Want to make a persona your own?** See [`05_personal/`](05_personal/) for an example of how to fork a general persona for your specific context, voice, and constraints. Anyone can do this — the guide is at [`05_personal/persona-customization-guide.md`](05_personal/persona-customization-guide.md).
+
+---
+
+## Workflows: Multi-Stage Playbooks
+
+**For goals that require more than one prompt.**
+
+The `04_workflows/` directory contains sequenced playbooks that combine personas, tasks, and structured stages into a complete execution flow. Workflows run as a single AI conversation — no copy-pasting between stages.
+
+| Workflow | What It Does | Stages |
+|----------|--------------|--------|
+| [Job Application](04_workflows/job-application.md) | Narrative framing → resume targeting → cover letter → risk check → interview prep | 5 |
+
+**[Browse all workflows →](04_workflows/)**
 
 ---
 
@@ -162,7 +176,12 @@ No technical background required to use the tasks. The persona and foundation la
 2. Explore [`02_personas/`](02_personas/) to see expert lenses
 3. Check [`01_response-standards/`](01_response-standards/) for output quality
 
-### Path 3: "I'm building something complex"
+### Path 3: "I want guided, multi-stage help"
+1. Browse [`04_workflows/`](04_workflows/) for a goal that matches yours
+2. Start at Stage 1 and run the workflow as a single AI conversation
+3. Each stage carries context forward — no copy-pasting
+
+### Path 4: "I'm building something complex"
 1. Understand the foundations (Path 2)
 2. Compose personas for your specific needs
 3. See [`05_personal/`](05_personal/) for a full example including team routing
@@ -172,15 +191,26 @@ No technical background required to use the tasks. The persona and foundation la
 
 ## Roadmap
 
-### MVP Phase 1 — Current
+### MVP Phase 1 — Complete
 - Foundation, response standards, personas, tasks — publicly available
 - Broad audience: accessible to anyone using AI, no technical background required
 - Personal persona customization guide and example
 
-### MVP Phase 2
-- Workflows layer: persona + task + sequence = outcome-driven playbooks
-- Expert-tier personas and tasks for builders, developers, and technical users
-- General-purpose team composition templates
+### MVP Phase 2 — In Progress
+- **Workflows layer** — persona + task + sequence = outcome-driven playbooks
+  - ✅ Job Application (5-stage: narrative → resume → cover letter → risk check → interview prep)
+  - 🔜 Content Creation (voice alignment → structure → draft → refinement)
+  - 🔜 Business Strategy Review (situation framing → option design → risk check)
+  - 🔜 Career Decision (offer evaluation / pivot / promotion decision)
+- **Task expansion** — filling high-value gaps
+  - ✅ Cover Letter
+  - ✅ Interview Preparation
+  - 🔜 Difficult Conversation / Hard Message
+  - 🔜 Situation Audit
+  - 🔜 Idea / Offer Validation
+  - 🔜 Project Scoping
+- **Expert-tier personas** — for builders, developers, and technical users
+- **General-purpose team composition templates**
 
 ### MVP Phase 3
 - Paid guide: how to build your own version — mental models, design decisions, persona writing, and team composition

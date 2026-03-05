@@ -127,7 +127,7 @@ Add: "I have documents, images, videos, and code files. Help me create a system 
 
 ## When to Suggest a Persona
 
-This task works great on its own. However, if you want more systematic thinking about organization, workflows, or long-term maintenance, you might benefit from the **Product Thinker** persona for systematic approaches or the **Operations & Systems Optimizer** persona for workflow optimization.
+This task works great on its own. However, if you want more systematic thinking about organization, workflows, or long-term maintenance, you might benefit from the **Product Thinker** persona for systematic approaches or the **Systems Architect** persona for workflow and automation thinking.
 
 ## Advanced Usage
 

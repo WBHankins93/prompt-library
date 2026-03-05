@@ -157,7 +157,7 @@ The AI will create a shopping system, help reduce waste, suggest money-saving st
 
 ## When to Suggest a Persona
 
-This task works great on its own. However, if you want more systematic thinking about optimization, efficiency, or building routines, you might benefit from the **Product Thinker** persona for systematic approaches or the **Operations & Systems Optimizer** persona for workflow efficiency.
+This task works great on its own. However, if you want more systematic thinking about optimization, efficiency, or building routines, you might benefit from the **Product Thinker** persona for systematic approaches or the **Systems Architect** persona for efficiency and routine-building thinking.
 
 ## Advanced Usage
 

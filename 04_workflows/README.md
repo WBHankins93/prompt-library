@@ -8,58 +8,80 @@
 
 A workflow is a persona + task + sequence = an outcome-driven playbook.
 
-Where personas are judgment lenses and tasks are standalone prompts, workflows combine both into a structured execution sequence. They are designed to be run start-to-finish for a specific, repeatable goal.
+Where personas are judgment lenses and tasks are standalone prompts, workflows combine both into a structured execution sequence. They are designed to run as a single, continuous AI conversation — each stage builds on the previous one, with the AI carrying context forward naturally through the thread.
 
-A workflow knows:
-- Which personas to activate (and in what order)
-- Which tasks to run (and when to run them)
+A workflow defines:
+- Which personas to activate at each stage (and why)
+- Which tasks to run (with adaptation notes for the workflow context)
 - What the expected output is at each stage
-- When to surface decisions vs. when to proceed automatically
+- Checkpoint blocks so you can pause and resume without losing progress
 
 ---
 
 ## Why This Layer Exists
 
-Personas and tasks work well independently. But some goals require multi-stage, coordinated effort across both — the kind of work where the sequence matters as much as the components.
+Personas and tasks work well independently. But some goals require multi-stage, coordinated effort where the sequence matters as much as the components.
 
 Examples:
-- A job search isn't one prompt. It's narrative framing, then resume refinement, then cover letter drafting, then interview prep — each stage building on the last.
+- A job search isn't one prompt. It's narrative framing, then resume targeting, then cover letter drafting, then interview prep — each stage building on the last.
 - A product launch isn't a single decision. It's positioning, then pricing, then messaging, then launch sequencing.
 
 Without a workflows layer, users have to wire these stages together manually on every use. Workflows make the sequence a first-class artifact.
 
-Workflows are also the human-triggered precursor to agents. Once a workflow is validated, it can be converted to an autonomous agent by adding tool access and an evaluation loop.
+Workflows are also the human-triggered precursor to agents. Once a workflow is validated, it can be converted to an autonomous agent by adding tool access and an evaluation loop. For now, they are designed for human execution.
 
 ---
 
-## What a Workflow Will Look Like
+## How Workflows Run
 
-**Example: Job Application Workflow**
+**Single-thread design.** Workflows run as one continuous AI conversation. Start at Stage 1 and proceed through each stage in sequence. The AI retains everything said — you don't copy-paste outputs between stages.
 
-```
-Workflow: Job Application
-Personas: Inner Voice (lead), Solution Architect Mentor (support), Red Team (final review)
-Sequence:
-  1. [Inner Voice] Narrative framing — who are you, what are you pursuing, why now
-  2. [Task: resume-review] Evaluate current resume against the target role
-  3. [Inner Voice + Solution Architect] Reframe experience for the specific opportunity
-  4. [Task: cover-letter] Draft a targeted cover letter in the user's voice
-  5. [Red Team] Final review — settling check, positioning gaps, what's underselling
-Output: Polished, coherent application package with a clear narrative thread
-```
+**Checkpoint blocks.** Long workflows (like job applications) may span multiple sessions. Each stage ends with an optional checkpoint block — a brief structured summary the AI writes so you can resume later without losing context.
 
-The workflow handles the wiring. The user handles the input and the decisions.
+**Task integration.** When a workflow includes a task, it uses the hybrid approach: it references the task file and adds a short adaptation note for the workflow context. The task remains the single source of truth for the full prompt.
+
+**Persona activation.** Each stage names the active persona(s). You don't need to reload the full persona file mid-conversation — the workflow prompt activates the right frame at the right moment.
 
 ---
 
-## What Lives Here (When Built)
+## Workflow File Format
 
-Each workflow file will define:
-- Name and target outcome
-- Persona composition and roles
-- Task sequence with inputs/outputs at each stage
-- Decision points that require user input
-- Completion criteria
+Each workflow file defines:
+
+```
+---
+workflow: [Name]
+status: active
+stages: [N]
+estimated_time: [X hours / can split across sessions]
+tasks_used:
+  - [task file paths]
+personas:
+  lead: [primary persona]
+  support: [supporting personas]
+  review: [review personas]
+---
+```
+
+Each stage follows this structure:
+
+```
+### Stage N: [Stage Name]
+**Persona: [persona name(s)]**
+**Time: [estimated time]**
+
+[What this stage accomplishes and why it happens here]
+
+[Optional: Task reference with adaptation note]
+
+[The prompt to run]
+
+**What you'll have at the end of this stage:**
+[Clear output description]
+
+**Optional checkpoint — if pausing here:**
+[What to ask the AI to summarize before closing the session]
+```
 
 ---
 
@@ -73,13 +95,17 @@ Workflows reference and orchestrate those components — they do not redefine th
 
 ---
 
+## Available Workflows
+
+| Workflow | Stages | Time | Status |
+|----------|--------|------|--------|
+| [Job Application](job-application.md) | 5 | 2–3 hours | ✅ Active |
+
+---
+
 ## Roadmap
 
-This directory will be populated in **MVP Phase 2**.
-
-The first workflows to be built will cover the highest-frequency multi-stage use cases:
-- Job application (narrative + resume + cover letter + interview prep)
-- Business strategy review (situation assessment + offer design + risk check)
-- Content creation (voice alignment + structure + draft + refinement)
-
-Do not add workflow files until the layer design is finalized in Phase 2.
+Next workflows to be built (in priority order):
+- Content Creation (voice alignment + structure + draft + refinement)
+- Business Strategy Review (situation assessment + offer design + risk check)
+- Career Decision (evaluate offer / pivot / promotion)

@@ -117,3 +117,21 @@ The AI will create a personalized meal plan with specific dishes, a shopping lis
 ## When to Suggest a Persona
 
 This task works great on its own. However, if you want more strategic thinking about nutrition, meal prep systems, or long-term eating patterns, you might benefit from the **Product Thinker** persona for systematic planning or the **Finance Dragon** persona for budget optimization.
+
+## Advanced Usage
+
+After getting your initial meal plan, you can ask:
+
+- "Adjust this plan — I didn't like [meal]. Swap it with something similar"
+- "Create a prep schedule for Sunday that covers all the make-ahead meals"
+- "What recipes can I batch cook once and eat three different ways?"
+- "Help me scale this plan up to feed [X] people"
+- "I have [ingredients] left over — build next week's plan around using them"
+
+## Important Notes
+
+- A realistic plan beats an aspirational one — if you know you won't cook on Thursdays, say so
+- Leftovers are a feature, not a flaw — a good plan uses them deliberately
+- Don't try to change everything at once — improving one or two meals is real progress
+- The first plan is a draft — adjust based on what actually worked that week
+- Meal planning is a habit, not a one-time task — the system improves as you refine it
