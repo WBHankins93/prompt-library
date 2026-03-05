@@ -34,6 +34,9 @@ Most applications fail because each piece is written in isolation. This workflow
 - **Your current resume** — even a rough one
 - **Your honest take on why you want this role** — "I want to do more X" is a real answer
 
+> **New here?** See the [Getting Started guide](getting-started.md) for step-by-step instructions — what AI tool to open, how brackets work (`[replace this]`), and how to run each stage.
+> **Quick Start:** No setup required. Open any AI tool, paste Stage 1, replace the brackets with your information, send. **Full Experience:** Load the foundation and persona files first for more depth — the Getting Started guide covers both paths.
+
 ## How This Workflow Runs
 
 **This is designed to run as a single, continuous AI conversation.** Start at Stage 1 and proceed through each stage in order. The AI carries everything said forward — you don't need to copy-paste outputs between stages.

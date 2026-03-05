@@ -97,6 +97,8 @@ Workflows reference and orchestrate those components — they do not redefine th
 
 ## Available Workflows
 
+**New to workflows?** Start with the [Getting Started guide](getting-started.md) — covers what AI tool to open, how to read prompt blocks, and how to run a workflow from scratch.
+
 | Workflow | Stages | Time | Status |
 |----------|--------|------|--------|
 | [Job Application](job-application.md) | 5 | 2–3 hours | ✅ Active |
