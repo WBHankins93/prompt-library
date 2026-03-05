@@ -1,87 +1,94 @@
-# Tasks · Ready-to-Use Prompts for Everyday Life
+# 📋 Tasks · Ready-to-Use Prompts for Everyday Life
 
 ## Purpose
 
 The `tasks/` directory contains self-contained, ready-to-use prompts designed for everyday non-technical users.
 
-These are complete prompts you can copy and use immediately with any AI assistant to accomplish specific real-world tasks.
+These are complete prompts you can **copy and use immediately** with any AI assistant to accomplish specific real-world tasks.
+
+---
 
 ## What Tasks Are
 
-Tasks are:
-
-- **Self-contained** — Each task is a complete, ready-to-use prompt
-- **Accessible** — Written for non-technical users, no special knowledge required
-- **Practical** — Focused on real-world outcomes you can use today
-- **Standalone** — Work independently, though they inherit quality standards from the master prompts
+| Property | What It Means |
+|----------|---------------|
+| 📦 **Self-contained** | Complete, ready-to-use — no setup required |
+| 🙋 **Accessible** | Written for non-technical users, no special knowledge required |
+| 🛠️ **Practical** | Focused on real-world outcomes you can use today |
+| 🔌 **Standalone** | Work independently, though they inherit quality standards from the master prompts |
 
 Tasks help you:
+- 📚 Learn new skills and understand complex topics
+- 🤝 Help others learn and solve problems
+- 🔁 Optimize boring but necessary tasks (grocery shopping, budgeting, etc.)
+- 🏗️ Build systems for positive outcomes (habits, productivity, organization)
+- 🎯 Make better decisions
+- 📄 Create professional documents
 
-- Learn new skills and understand complex topics
-- Help others learn and solve problems
-- Optimize boring but necessary tasks (grocery shopping, budgeting, etc.)
-- Build systems for positive outcomes (habits, productivity, organization)
-- Make better decisions
-- Create professional documents
+---
 
 ## What Tasks Are Not
 
-Tasks are not:
+Tasks are **not**:
+- 👤 Expert personas (those are in [`02_personas/`](../02_personas/))
+- 👥 Team compositions (those are in [`05_personal/teams/`](../05_personal/teams/))
+- 🧱 Foundational standards (those are in [`00_foundation/`](../00_foundation/))
 
-- Expert personas (those are in `02_personas/`)
-- Team compositions (those are in `05_personal/teams/`)
-- Foundational standards (those are in `00_foundation/`)
+---
 
-Tasks are practical prompts focused on:
-- **Helping** — Supporting others in learning and problem-solving
-- **Learning** — Building skills and understanding (simple and complex)
-- **Positive outcomes** — Creating systems for better life results
-- **Efficiency** — Making boring but necessary tasks easier
+## Task Categories
+
+| Category | What's Inside |
+|----------|---------------|
+| 🤝 **Helping** | Teaching, mentoring, helping others learn or solve problems |
+| 📚 **Learning** | Skill development, research deep dives, learning from mistakes |
+| 🌱 **Lifestyle** | Meal planning, grocery optimization, budget planning, home organization |
+| 📁 **Organization** | File systems, note-taking, systems that make life easier |
+| 📄 **Documents** | Resumes, cover letters, professional documents |
+| ⚡ **Productivity** | Complex productivity systems, habit formation, workflow optimization |
+| 🎯 **Decision-Making** | Purchase decisions, career choices, life changes |
+
+---
+
+## How to Use Tasks
+
+1️⃣ Browse categories to find what you need
+2️⃣ Open the task file
+3️⃣ Copy the prompt
+4️⃣ Paste it into your AI assistant
+5️⃣ Follow the instructions and provide your specific information
+
+Each task includes:
+- 📌 Clear instructions
+- 📝 What information you'll need to provide
+- 📤 What to expect as output
+- 💡 Tips for best results
+
+---
 
 ## How Tasks Relate to the System
 
 All tasks inherit quality standards from:
+- 🧱 `00_foundation/foundation.md` — Identity, research, and reasoning standards
+- 📐 `01_response-standards/` — Clear, actionable outputs
 
-- `00_foundation/foundation.md` — Identity, research, and reasoning standards
-- `01_response-standards/` — Clear, actionable outputs
+Tasks may optionally suggest relevant personas when they would add value, but **tasks work perfectly fine on their own.**
 
-Tasks may optionally suggest relevant personas when they would add value, but tasks work perfectly fine on their own.
-
-## Task Categories
-
-Tasks are organized by category:
-
-- **Helping** — Teaching, mentoring, helping others learn or solve problems
-- **Learning** — Skill development, research deep dives, learning from mistakes
-- **Lifestyle** — Meal planning, grocery optimization, budget planning, home organization
-- **Organization** — File systems, note-taking, systems that make life easier
-- **Documents** — Resumes, cover letters, professional documents
-- **Productivity** — Complex productivity systems, habit formation, workflow optimization
-- **Decision-Making** — Purchase decisions, career choices, life changes
-
-## How to Use Tasks
-
-1. Browse categories to find what you need
-2. Open the task file
-3. Copy the prompt
-4. Paste it into your AI assistant
-5. Follow the instructions and provide your specific information
-
-Each task includes:
-- Clear instructions
-- What information you'll need to provide
-- What to expect as output
-- Tips for best results
+---
 
 ## Task File Format
 
 Each task includes:
 
-- **Frontmatter** — Category, difficulty, time estimate, optional persona suggestions
-- **Task Description** — What this task helps you accomplish
-- **Instructions** — Step-by-step guidance
-- **Example** — Sample inputs and outputs
-- **Tips** — How to get the best results
+| Section | What's In It |
+|---------|--------------|
+| **Frontmatter** | Category, difficulty, time estimate, optional persona suggestions |
+| **Task Description** | What this task helps you accomplish |
+| **Instructions** | Step-by-step guidance |
+| **Example** | Sample inputs and outputs |
+| **Tips** | How to get the best results |
+
+---
 
 ## Creating New Tasks
 
@@ -94,15 +101,17 @@ When creating a new task:
 5. Provide examples
 6. Test it yourself before adding
 
-Tasks should be immediately usable by someone who has never used AI before.
+> ✅ Tasks should be immediately usable by someone who has never used AI before.
+
+---
 
 ## Design Philosophy
 
-Tasks are intentionally:
+| Principle | What It Means |
+|-----------|---------------|
+| **Simple** | No complex setup required |
+| **Practical** | Solve real problems people face |
+| **Accessible** | No technical jargon or assumptions |
+| **Effective** | Produce useful, actionable results |
 
-- **Simple** — No complex setup required
-- **Practical** — Solve real problems people face
-- **Accessible** — No technical jargon or assumptions
-- **Effective** — Produce useful, actionable results
-
-If a task requires technical knowledge or complex setup, it belongs in `instructions/` instead.
+> If a task requires technical knowledge or complex setup, it belongs in `instructions/` instead.

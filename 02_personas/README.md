@@ -1,178 +1,199 @@
-# Master Personas · Canonical Roster & Usage Model
+# 👤 Master Personas · Canonical Roster & Usage Model
 
 ## Purpose
 
 This repository contains a curated set of expert personas designed to be composed into reusable, high-signal AI agents and teams.
 
-These personas are not prompts in isolation.
+These personas are not prompts in isolation. They are **opinionated judgment lenses** that inherit a shared operating backbone and are combined intentionally depending on the problem being solved.
 
-They are opinionated judgment lenses that inherit a shared operating backbone and are combined intentionally depending on the problem being solved.
+> The goal is not personality simulation. The goal is **repeatable, expert-level judgment** across domains of life, work, and creative exploration.
 
-The goal is not personality simulation. The goal is repeatable, expert-level judgment across domains of life, work, and creative exploration.
+---
 
 ## How Personas Are Used
 
-Personas in this system are:
+| Property | What It Means |
+|----------|---------------|
+| 🔒 **Stable** | Rarely changed once defined |
+| ♻️ **Reusable** | Appear across many projects unchanged |
+| 🧩 **Composable** | Assembled into temporary teams |
+| 🎯 **Opinionated** | Each has a clear bias and edge |
 
-- Stable — rarely changed once defined
-- Reusable — appear across many projects unchanged
-- Composable — assembled into temporary teams
-- Opinionated — each has a clear bias and edge
-
-Personas do not:
-
+Personas do **not**:
 - Redefine global standards
 - Override reasoning or research rules
 - Compete for authority
 
 All personas inherit:
-
-- `00_foundation/foundation.md` — identity, research, and reasoning standards
-- `01_response-standards/` — output clarity and rigor
+- 🧱 `00_foundation/foundation.md` — identity, research, and reasoning standards
+- 📐 `01_response-standards/` — output clarity and rigor
 
 Personas add domain expertise, perspective, and voice only.
 
+---
+
 ## Personas vs Teams
 
-Personas are specialists.
+> **Personas** = specialists. **Teams** = temporary compositions assembled for a specific mode or project.
 
-Teams are temporary compositions of personas assembled for a specific mode or project.
+A single persona may appear in many teams across many projects without modification. This mirrors how real-world expert collaboration works.
 
-A single persona may appear in many teams across many projects without modification.
-
-This mirrors how real-world expert collaboration works.
+---
 
 ## Canonical Persona Roster
 
 Each persona's `domain` field is stored in its frontmatter, making it easy to filter and compose programmatically.
 
-### Technical — Code, architecture, systems, engineering
+---
 
-- **The Mathematic / Tech Wizard / Hacker Prodigy**
-  Friendly genius, technical mentor
-  Bias: Understanding why over memorizing how.
+### ⚙️ Technical
+*Code, architecture, systems, engineering*
 
-- **The Platform Engineer Mentor**
-  Staff/principal-level engineer, production systems
-  Bias: Build for production. Optimize for trust.
+**The Mathematic / Tech Wizard / Hacker Prodigy**
+Friendly genius, technical mentor
+> *Bias: Understanding why over memorizing how.*
 
-- **The Staff Engineer / Founding CTO Mentor**
-  Engineering leadership, organizational systems
-  Bias: The right abstraction at the right time.
+**The Platform Engineer Mentor**
+Staff/principal-level engineer, production systems
+> *Bias: Build for production. Optimize for trust.*
 
-- **The Solution Architect Mentor**
-  Enterprise SE, technical positioning, POC strategy
-  Bias: Technical credibility is won in the room.
+**The Staff Engineer / Founding CTO Mentor**
+Engineering leadership, organizational systems
+> *Bias: The right abstraction at the right time.*
 
-- **The Systems Architect**
-  Productization, MRR, automation
-  Bias: Turns effort into recurring assets.
+**The Solution Architect Mentor**
+Enterprise SE, technical positioning, POC strategy
+> *Bias: Technical credibility is won in the room.*
 
-### Business — Strategy, operations, leadership, execution
+**The Systems Architect**
+Productization, MRR, automation
+> *Bias: Turns effort into recurring assets.*
 
-- **The Go-Getter Business Leader**
-  Builder, operator, empire architect
-  Bias: Outcomes over optics. Systems over hacks.
+---
 
-- **The SaaS Founder**
-  Product-led growth, SaaS dynamics
-  Bias: Distribution and retention beat features.
+### 💼 Business
+*Strategy, operations, leadership, execution*
 
-- **The Boring Gold Miner**
-  Unsexy but durable business models
-  Bias: Reliable cash beats exciting volatility.
+**The Go-Getter Business Leader**
+Builder, operator, empire architect
+> *Bias: Outcomes over optics. Systems over hacks.*
 
-- **The Builder-Refiner**
-  Maker with taste
-  Bias: Finished beats perfect.
+**The SaaS Founder**
+Product-led growth, SaaS dynamics
+> *Bias: Distribution and retention beat features.*
 
-- **The Operations & Systems Optimizer**
-  Quiet efficiency expert
-  Bias: Systems should get simpler as they grow.
+**The Boring Gold Miner**
+Unsexy but durable business models
+> *Bias: Reliable cash beats exciting volatility.*
 
-### Commercial — Revenue, marketing, growth, pricing, offers
+**The Builder-Refiner**
+Maker with taste
+> *Bias: Finished beats perfect.*
 
-- **The Revenue Multiplier**
-  Monetization, pricing, unit economics
-  Bias: Offer architecture over hustle.
+**The Operations & Systems Optimizer**
+Quiet efficiency expert
+> *Bias: Systems should get simpler as they grow.*
 
-- **The Marketing Mastermind**
-  Distribution strategist, narrative architect
-  Bias: Great products fail without distribution.
+---
 
-- **Alex Hormozi**
-  Offer design, acquisition, volume
-  Bias: Raw commercial instinct, no filter.
+### 📈 Commercial
+*Revenue, marketing, growth, pricing, offers*
 
-### Creative — Design, brand, voice, storytelling
+**The Revenue Multiplier**
+Monetization, pricing, unit economics
+> *Bias: Offer architecture over hustle.*
 
-- **The Design Guru**
-  Taste leader, creative minimalist
-  Bias: Clean design earns trust. Fun design creates memory.
+**The Marketing Mastermind**
+Distribution strategist, narrative architect
+> *Bias: Great products fail without distribution.*
 
-- **The Creative Director / Storyteller**
-  Narrative architect, brand soul keeper
-  Bias: Story is how ideas survive contact with people.
+**Alex Hormozi**
+Offer design, acquisition, volume
+> *Bias: Raw commercial instinct, no filter.*
 
-- **Inner Voice**
-  Personal voice, identity, authentic expression
-  Bias: The user's mirror — knows who they are and how they sound.
+---
 
-- **The Playful Disruptor**
-  Energy shifter, boredom breaker
-  Bias: Play unlocks insight.
+### 🎨 Creative
+*Design, brand, voice, storytelling*
 
-### Advisory — Risk, decisions, finance, legal, product thinking
+**The Design Guru**
+Taste leader, creative minimalist
+> *Bias: Clean design earns trust. Fun design creates memory.*
 
-- **The Skeptical Reviewer / Red Team**
-  Constructive adversary, failure hunter
-  Bias: Weak ideas should fail early and cheaply.
+**The Creative Director / Storyteller**
+Narrative architect, brand soul keeper
+> *Bias: Story is how ideas survive contact with people.*
 
-- **The Finance Dragon**
-  Calm financial master, long-term thinker
-  Bias: Stability and control beat short-term gains.
+**Inner Voice**
+Personal voice, identity, authentic expression
+> *Bias: The user's mirror — knows who they are and how they sound.*
 
-- **The Legal Advisor**
-  Risk-aware counsel, compliance anchor
-  Bias: Know what you're agreeing to.
+**The Playful Disruptor**
+Energy shifter, boredom breaker
+> *Bias: Play unlocks insight.*
 
-- **The Product Thinker / User Advocate**
-  Product-minded strategist
-  Bias: If it doesn't help a real user, it doesn't matter.
+---
 
-- **The Decision Anchor**
-  Clarity engine, commitment stabilizer
-  Bias: Long-term impact outweighs short-term comfort.
+### ⚖️ Advisory
+*Risk, decisions, finance, legal, product thinking*
 
-- **The Pattern Seer**
-  Signal detector, trajectory reader
-  Bias: Patterns matter more than isolated facts.
+**The Skeptical Reviewer / Red Team**
+Constructive adversary, failure hunter
+> *Bias: Weak ideas should fail early and cheaply.*
 
-### Orientation — Direction, wayfinding, meaning, discovery
+**The Finance Dragon**
+Calm financial master, long-term thinker
+> *Bias: Stability and control beat short-term gains.*
 
-- **The Wayfinder**
-  Directional guide, orientation specialist
-  Bias: Movement with meaning beats motion without purpose.
+**The Legal Advisor**
+Risk-aware counsel, compliance anchor
+> *Bias: Know what you're agreeing to.*
 
-- **The Explorer-Scholar**
-  Curiosity-driven learner, integrator
-  Bias: Curiosity is fuel, not distraction.
+**The Product Thinker / User Advocate**
+Product-minded strategist
+> *Bias: If it doesn't help a real user, it doesn't matter.*
 
-- **The Nurturing Steward**
-  Human regulator, sustainability keeper
-  Bias: Sustainable effort beats heroic burnout.
+**The Decision Anchor**
+Clarity engine, commitment stabilizer
+> *Bias: Long-term impact outweighs short-term comfort.*
 
-### Specialist — Domain-specific, contextual personas
+**The Pattern Seer**
+Signal detector, trajectory reader
+> *Bias: Patterns matter more than isolated facts.*
 
-- **The Oregon Specialist**
-  Place-based intelligence, rhythm keeper
-  Bias: Place shapes thinking. Pace shapes clarity.
+---
 
-- **The Ex-Flight Attendant (Travel Insider)**
-  Industry insider, value maximizer
-  Bias: Reliability and value over luxury myths.
+### 🧭 Orientation
+*Direction, wayfinding, meaning, discovery*
 
-## Sculpting & Versioning
+**The Wayfinder**
+Directional guide, orientation specialist
+> *Bias: Movement with meaning beats motion without purpose.*
+
+**The Explorer-Scholar**
+Curiosity-driven learner, integrator
+> *Bias: Curiosity is fuel, not distraction.*
+
+**The Nurturing Steward**
+Human regulator, sustainability keeper
+> *Bias: Sustainable effort beats heroic burnout.*
+
+---
+
+### 🎯 Specialist
+*Domain-specific, contextual personas*
+
+**The Oregon Specialist**
+Place-based intelligence, rhythm keeper
+> *Bias: Place shapes thinking. Pace shapes clarity.*
+
+**The Ex-Flight Attendant (Travel Insider)**
+Industry insider, value maximizer
+> *Bias: Reliability and value over luxury myths.*
+
+---
+
+## 🔨 Sculpting & Versioning
 
 Each persona is created using a lightweight sculpting process:
 
@@ -184,40 +205,46 @@ Each persona is created using a lightweight sculpting process:
 
 This process is recorded in the `sculpting/` directory, with each file named to match its corresponding persona (e.g., `sculpting/builder-refiner.md`).
 
+---
+
 ## Creating Your Own Personas
 
 You are encouraged to create your own personas by:
 
-- Reusing the sculpting pattern
-- Writing persona-specific questions
-- Answering them explicitly
-- Locking a version before use
+1. Reusing the sculpting pattern
+2. Writing persona-specific questions
+3. Answering them explicitly
+4. Locking a version before use
 
-Do not modify existing personas directly. Fork or version intentionally.
+> ⚠️ Do not modify existing personas directly. Fork or version intentionally.
 
-See `05_personal/persona-customization-guide.md` for a practical starting template.
+See [`05_personal/persona-customization-guide.md`](../05_personal/persona-customization-guide.md) for a practical starting template.
+
+---
 
 ## Composite Personas
 
 Composite personas may be created when two domains must operate as a single voice.
 
 Examples:
-
 - Marketing–Design Power Duo
 
 Composite personas must:
-
 - Be explicitly labeled
 - Never redefine base personas
 - Exist only when collaboration is the core requirement
 
+---
+
 ## Design Philosophy
 
-This persona system is intentionally:
+| Principle | |
+|-----------|--|
+| **Opinionated** | Each persona has a clear bias and hard lines |
+| **Modular** | Use one or many — they don't conflict |
+| **Reusable** | Unchanged across projects and contexts |
+| **Resistant to drift** | Foundation rules prevent degradation |
 
-- Opinionated
-- Modular
-- Reusable
-- Resistant to drift
+---
 
-Personas are tools. Teams are strategy. The foundation is law.
+> **Personas are tools. Teams are strategy. The foundation is law.**
