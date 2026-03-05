@@ -28,6 +28,8 @@ Examples:
 
 Without a workflows layer, users have to wire these stages together manually on every use. Workflows make the sequence a first-class artifact.
 
+Workflows are also the human-triggered precursor to agents. Once a workflow is validated, it can be converted to an autonomous agent by adding tool access and an evaluation loop.
+
 ---
 
 ## What a Workflow Will Look Like
