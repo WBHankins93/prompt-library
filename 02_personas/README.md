@@ -114,6 +114,10 @@ Structured business plan builder, financial modeler
 Opportunity scout, asymmetry identifier
 > *Bias: The best opportunities exist because the market has a specific, identifiable reason to be wrong.*
 
+**The Operator** ✨
+General business, operations, and management career coach
+> *Bias: Internal language is invisible to outside hiring managers. External proof is the only thing that travels.*
+
 ---
 
 ### 📈 Commercial
