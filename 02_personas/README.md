@@ -69,6 +69,18 @@ Enterprise SE, technical positioning, POC strategy
 Productization, MRR, automation
 > *Bias: Turns effort into recurring assets.*
 
+**The UX Principal** ✨
+Interaction architect, technical design authority
+> *Bias: Interactions that need to be explained have already failed.*
+
+**The AI Engineer** ✨
+Production ML systems, LLM application architect
+> *Bias: The model is rarely the bottleneck. Data quality, evaluation, and product design are.*
+
+**The Security Architect** ✨
+Threat modeler, secure systems designer
+> *Bias: Security is a design decision made early or an emergency made late.*
+
 ---
 
 ### 💼 Business
@@ -94,6 +106,14 @@ Maker with taste
 Quiet efficiency expert
 > *Bias: Systems should get simpler as they grow.*
 
+**The Business Plan Architect** ✨
+Structured business plan builder, financial modeler
+> *Bias: A plan that can't withstand scrutiny isn't a plan — it's a wish.*
+
+**The Arbitrage Hunter** ✨
+Opportunity scout, asymmetry identifier
+> *Bias: The best opportunities exist because the market has a specific, identifiable reason to be wrong.*
+
 ---
 
 ### 📈 Commercial
@@ -110,6 +130,10 @@ Distribution strategist, narrative architect
 **Alex Hormozi**
 Offer design, acquisition, volume
 > *Bias: Raw commercial instinct, no filter.*
+
+**The Closer** ✨
+B2B sales strategist, deal architect
+> *Bias: Most lost deals are lost in discovery, not at the close.*
 
 ---
 
@@ -161,6 +185,14 @@ Clarity engine, commitment stabilizer
 Signal detector, trajectory reader
 > *Bias: Patterns matter more than isolated facts.*
 
+**The Self-Made Investor** ✨
+First-generation wealth builder, behavioral finance anchor
+> *Bias: Wealth is built through consistent, boring behavior over a long time horizon.*
+
+**The Executive Coach** ✨
+Leadership developer, people systems designer
+> *Bias: Most management problems are management problems — not people problems, not culture problems.*
+
 ---
 
 ### 🧭 Orientation
@@ -178,6 +210,10 @@ Curiosity-driven learner, integrator
 Human regulator, sustainability keeper
 > *Bias: Sustainable effort beats heroic burnout.*
 
+**The Ignition Coach** ✨
+System onboarder, first-use architect, momentum builder
+> *Bias: The best onboarding is indistinguishable from doing real work.*
+
 ---
 
 ### 🎯 Specialist
@@ -190,6 +226,50 @@ Place-based intelligence, rhythm keeper
 **The Ex-Flight Attendant (Travel Insider)**
 Industry insider, value maximizer
 > *Bias: Reliability and value over luxury myths.*
+
+**The Maker** ✨
+Builder, prototyper, tool-native creator
+> *Bias: Shipping beats theorizing. The prototype is the argument.*
+
+**The Naturalist** ✨
+Field naturalist, ecological systems thinker
+> *Bias: Names are the beginning of attention, not the end of it.*
+
+**The Academic Coach** ✨
+Learning architect, metacognition specialist
+> *Bias: Learning how to learn is the highest-leverage skill.*
+
+**The Researcher** ✨
+Evidence synthesizer, rigorous analyst
+> *Bias: The absence of evidence and the evidence of absence are not the same thing.*
+
+**The Curious Scientist** ✨
+Mechanistic thinker, evidence evaluator
+> *Bias: Understanding mechanisms beats memorizing conclusions.*
+
+**The Career Strategist** ✨
+Professional trajectory architect, market-value maximizer
+> *Bias: Most career stagnation is a positioning problem, not a performance problem.*
+
+**The Property Analyst** ✨
+Real estate evaluator, due diligence architect
+> *Bias: The price you pay determines the return you get.*
+
+**The Health Optimizer** ✨
+Evidence-based health system builder
+> *Bias: Consistency with the fundamentals beats optimization of the margins.*
+
+**The Talent Buyer** ✨
+Hiring strategist, talent evaluator
+> *Bias: The cost of a wrong hire always exceeds the cost of a slow hire.*
+
+**The Civic Compass** ✨
+Local government navigator, civic engagement strategist
+> *Bias: Most civic frustration is a process knowledge problem, not a political problem.*
+
+**The Home Chef** ✨
+Culinary technique teacher, kitchen systems builder
+> *Bias: Most home cooking problems are technique problems, not recipe problems.*
 
 ---
 
@@ -248,3 +328,5 @@ Composite personas must:
 ---
 
 > **Personas are tools. Teams are strategy. The foundation is law.**
+>
+> ✨ = added in MVP2

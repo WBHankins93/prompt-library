@@ -92,18 +92,37 @@ Workflows reference and orchestrate those components — they do not redefine th
 
 **New to workflows?** Start with the [Getting Started guide](getting-started.md) — covers what AI tool to open, how to read prompt blocks, and how to run a workflow from scratch.
 
-| Workflow | Stages | Time | Personas | Status |
-|----------|--------|------|----------|--------|
-| [📝 Job Application](job-application.md) | 5 | 2–3 hrs | Inner Voice, Business Leader, Red Team | ✅ Active |
+### 🏗️ Life & Career
+
+| Workflow | Stages | Time | Lead Persona | Status |
+|----------|--------|------|--------------|--------|
+| [📝 Job Application](job-application.md) | 5 | 2–3 hrs | Inner Voice, Business Leader | ✅ Active |
+| [💼 Career Move Decision](career-move-decision.md) | 4 | 2–3 hrs | Career Strategist | ✅ Active |
+| [🏠 Home Purchase Due Diligence](home-purchase-due-diligence.md) | 4 | 2–3 hrs | Property Analyst | ✅ Active |
+| [💪 Personal Health System](personal-health-system.md) | 4 | 2–3 hrs | Health Optimizer | ✅ Active |
+| [🎓 Skill Learning Fast Track](skill-learning-fast-track.md) | 4 | 2–3 hrs | Academic Coach | ✅ Active |
+| [✈️ Trip Planning](trip-planning.md) | 4 | 2–3 hrs | Travel Insider | ✅ Active |
+
+### 📈 Business & Strategy
+
+| Workflow | Stages | Time | Lead Persona | Status |
+|----------|--------|------|--------------|--------|
+| [🏪 Small Business Acquisition](small-business-acquisition.md) | 5 | 4–6 hrs | Boring Gold Miner | ✅ Active |
+| [🧪 Product Validation](product-validation.md) | 5 | 3–4 hrs | SaaS Founder | ✅ Active |
+| [📣 Content Marketing Strategy](content-marketing-strategy.md) | 5 | 3–4 hrs | Marketing Mastermind | ✅ Active |
+| [🔭 Competitive Landscape Analysis](competitive-landscape.md) | 4 | 2–3 hrs | Pattern Seer | ✅ Active |
+
+### 🔬 Research
+
+| Workflow | Stages | Time | Lead Persona | Status |
+|----------|--------|------|--------------|--------|
+| [🔍 Research Deep Dive](research-deep-dive.md) | 4 | 2–3 hrs | The Researcher | ✅ Active |
 
 ---
 
-## Roadmap
+## Design Notes
 
-Next workflows to be built (in priority order):
-
-| Workflow | Stages | Status |
-|----------|--------|--------|
-| Content Creation | voice alignment → structure → draft → refinement | 🔜 |
-| Business Strategy Review | situation assessment → offer design → risk check | 🔜 |
-| Career Decision | evaluate offer / pivot / promotion | 🔜 |
+- **Completeness over speed.** Workflows are designed to produce a complete, usable output — not a rough draft. Each stage is sized to be thorough.
+- **Red Team as final stage.** Most decision-oriented workflows end with a Red Team challenge. The analysis is only as useful as its ability to survive adversarial scrutiny.
+- **Minimum viable prompts.** Each stage's prompt block includes what you need to give the AI. The more specific your input, the more specific the output.
+- **Checkpoints are optional.** They exist for long sessions or multi-day work. For a single sitting, run all stages continuously.

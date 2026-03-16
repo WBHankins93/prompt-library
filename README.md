@@ -17,6 +17,7 @@ The layered structure is intentional and the load order matters. Each layer buil
 | 🚀 | Need a ready-to-use prompt | [`03_tasks/`](03_tasks/) |
 | 🔍 | Want to understand the system | [`00_foundation/foundation.md`](00_foundation/foundation.md) |
 | 🧠 | Want expert-level advice | [`02_personas/`](02_personas/) |
+| 🔄 | Want guided, multi-stage help | [`04_workflows/`](04_workflows/) |
 | 🪄 | Want to personalize the system | [`05_personal/`](05_personal/) |
 
 ---
@@ -29,9 +30,9 @@ The numbered directories form the backbone of this system, in dependency load or
 |-------|-----------|--------------|
 | 🧱 | [`00_foundation/`](00_foundation/) | Identity, research, and reasoning standards |
 | 📐 | [`01_response-standards/`](01_response-standards/) | Output quality and expression discipline |
-| 👤 | [`02_personas/`](02_personas/) | Expert judgment lenses (domain-organized) |
+| 👤 | [`02_personas/`](02_personas/) | Expert judgment lenses — 50 personas across 7 domains |
 | 📋 | [`03_tasks/`](03_tasks/) | Ready-to-use prompts for everyday life |
-| 🔄 | [`04_workflows/`](04_workflows/) | Composed multi-stage playbooks |
+| 🔄 | [`04_workflows/`](04_workflows/) | Composed multi-stage playbooks — 12 workflows |
 | 🧩 | [`05_personal/`](05_personal/) | Personal persona customizations and team routing |
 
 > 🔼 **Load order matters.** Foundation loads before standards. Standards load before personas. Personas activate before tasks run. The sequence is the system.
@@ -62,22 +63,21 @@ The `03_tasks/` directory contains prompts you can copy and use immediately:
 
 **Get specialized advice from expert perspectives.**
 
-Each persona represents a domain expert with specific knowledge, biases, and authority. They are composable — activate one or several depending on your situation.
+Each persona represents a domain expert with specific knowledge, biases, and authority. They are composable — activate one or several depending on your situation. **50 personas** across 7 domains.
 
-| Persona | Focus |
-|---------|-------|
-| 💼 **Business Leader** | Strategy, execution, growth |
-| 🎨 **Design Guru** | User experience, aesthetics, usability |
-| 💰 **Finance Dragon** | Money, investments, budgets |
-| 📣 **Marketing Mastermind** | Brand, messaging, campaigns |
-| ⚙️ **Tech Wizard** | Technical architecture, implementation |
-| ✍️ **Storyteller** | Narrative, communication, engagement |
-| 🔴 **Red Team** | Critical thinking, challenge assumptions |
-| ➕ | [Many more →](02_personas/) |
+| Domain | Examples |
+|--------|---------|
+| ⚙️ **Technical** | Tech Wizard, Platform Engineer, Staff/CTO Mentor, UX Principal, AI Engineer, Security Architect |
+| 💼 **Business** | Business Leader, SaaS Founder, Boring Gold Miner, Arbitrage Hunter |
+| 📈 **Commercial** | Revenue Multiplier, Marketing Mastermind, The Closer |
+| 🎨 **Creative** | Design Guru, Storyteller, Inner Voice |
+| ⚖️ **Advisory** | Red Team, Finance Dragon, Legal Advisor, Decision Anchor, Self-Made Investor, Executive Coach |
+| 🧭 **Orientation** | Wayfinder, Explorer-Scholar, Ignition Coach |
+| 🎯 **Specialist** | Career Strategist, Health Optimizer, Academic Coach, Writing Coach, Property Analyst, and more |
 
-**[Explore all personas →](02_personas/)**
+**[Explore all 50 personas →](02_personas/)**
 
-**Want to make a persona your own?** See [`05_personal/`](05_personal/) for an example of how to fork a general persona for your specific context, voice, and constraints. The guide is at [`05_personal/persona-customization-guide.md`](05_personal/persona-customization-guide.md).
+**Want to make a persona your own?** See [`05_personal/`](05_personal/) for an example of how to fork a general persona for your specific context, voice, and constraints.
 
 ---
 
@@ -85,11 +85,33 @@ Each persona represents a domain expert with specific knowledge, biases, and aut
 
 **For goals that require more than one prompt.**
 
-The `04_workflows/` directory contains sequenced playbooks that combine personas, tasks, and structured stages into a complete execution flow. Workflows run as a single AI conversation — no copy-pasting between stages.
+Workflows run as a single AI conversation — no copy-pasting between stages. Each stage builds on the previous. **12 workflows** organized by domain.
 
-| Workflow | What It Does | Stages |
-|----------|--------------|--------|
-| [📝 Job Application](04_workflows/job-application.md) | Narrative framing → resume targeting → cover letter → risk check → interview prep | 5 |
+### Life & Career
+
+| Workflow | Stages | What It Does |
+|----------|--------|--------------|
+| [📝 Job Application](04_workflows/job-application.md) | 5 | Narrative framing → resume → cover letter → risk check → interview prep |
+| [💼 Career Move Decision](04_workflows/career-move-decision.md) | 4 | Strategic clarity → compensation reality → identity check → decision |
+| [🏠 Home Purchase Due Diligence](04_workflows/home-purchase-due-diligence.md) | 4 | Property assessment → financial reality → legal review → negotiation |
+| [💪 Personal Health System](04_workflows/personal-health-system.md) | 4 | Baseline → evidence check → system design → habit architecture |
+| [🎓 Skill Learning Fast Track](04_workflows/skill-learning-fast-track.md) | 4 | Goal clarity → learning architecture → practice system → commitment |
+| [✈️ Trip Planning](04_workflows/trip-planning.md) | 4 | Intent + profile → destination dive → itinerary → logistics |
+
+### Business & Strategy
+
+| Workflow | Stages | What It Does |
+|----------|--------|--------------|
+| [🏪 Small Business Acquisition](04_workflows/small-business-acquisition.md) | 5 | Quality assessment → financials → legal/risk → red team → offer strategy |
+| [🧪 Product Validation](04_workflows/product-validation.md) | 5 | Hypothesis → market reality → customer/channel → red team → MVP |
+| [📣 Content Marketing Strategy](04_workflows/content-marketing-strategy.md) | 5 | Audience + positioning → voice → channel → plan → launch |
+| [🔭 Competitive Landscape](04_workflows/competitive-landscape.md) | 4 | Landscape framing → competitor assessment → positioning → strategy |
+
+### Research
+
+| Workflow | Stages | What It Does |
+|----------|--------|--------------|
+| [🔍 Research Deep Dive](04_workflows/research-deep-dive.md) | 4 | Scope → evidence landscape → synthesis → gaps + actionable output |
 
 **[Browse all workflows →](04_workflows/)**
 
@@ -193,30 +215,51 @@ No technical background required to use the tasks. The persona and foundation la
 
 ## Roadmap
 
-### 🟢 MVP Phase 1 — Complete
-- Foundation, response standards, personas, tasks — publicly available
-- Broad audience: accessible to anyone using AI, no technical background required
-- Personal persona customization guide and example
+> For the full phase-by-phase build history, see [`roadmap.md`](roadmap.md).
 
-### 🟡 MVP Phase 2 — In Progress
-- **Workflows layer** — persona + task + sequence = outcome-driven playbooks
-  - ✅ Job Application (5-stage: narrative → resume → cover letter → risk check → interview prep)
-  - 🔜 Content Creation (voice alignment → structure → draft → refinement)
-  - 🔜 Business Strategy Review (situation framing → option design → risk check)
-  - 🔜 Career Decision (offer evaluation / pivot / promotion decision)
-- **Task expansion** — filling high-value gaps
-  - ✅ Cover Letter
-  - ✅ Interview Preparation
-  - 🔜 Difficult Conversation / Hard Message
-  - 🔜 Situation Audit
-  - 🔜 Idea / Offer Validation
-  - 🔜 Project Scoping
-- **Expert-tier personas** — for builders, developers, and technical users
-- **General-purpose team composition templates**
+---
 
-### 🔵 MVP Phase 3
-- Paid guide: how to build your own version — mental models, design decisions, persona writing, and team composition
-- Claude Skills integration for platform-native execution modules
+### ✅ MVP 1 — Foundation
+*Complete*
+
+Established the reusable architecture: foundation layer, response standards, first-generation persona roster (28 personas), task library, workflow spec, and the job application as the first complete workflow.
+
+**Delivered:**
+- Architecture and directory structure
+- 28 personas across all major domains
+- Task library (documents, learning, lifestyle, productivity)
+- Workflow layer + first workflow (job application)
+- Getting-started guide and personal customization layer
+
+---
+
+### ✅ MVP 2 — Expansion Sprint
+*Complete*
+
+Dramatically expanded the persona library and built out the workflow catalog across the highest-value use cases.
+
+**Delivered:**
+- **+17 new personas** — specialist, commercial, advisory, orientation, and business domains
+- **+10 new workflows** — covering career, real estate, health, business acquisition, product validation, marketing, research, travel, competitive analysis, and learning
+- **+5 technical depth personas** — UX Principal, AI Engineer, Security Architect, Data Engineer, Writing Coach
+
+**Library after MVP 2:**
+- **50 personas** across 7 domains
+- **12 workflows** covering life, career, business, and research decisions
+- Full `roadmap.md` documenting all phases
+
+---
+
+### 🔵 MVP 3 — Next
+*Not scoped*
+
+| Candidate | Description |
+|-----------|-------------|
+| **Auto-routing layer** | Lightweight mechanism that maps an incoming situation to the right persona or workflow without manual selection — see `auto-routing-build-plan.md` |
+| **Additional workflows** | Investment due diligence, negotiation prep, business exit planning, creative project launch, rental property evaluation |
+| **Additional personas** | The Negotiator, The Fitness Coach, The Language Coach, The Parenting Strategist |
+| **Team compositions** | Formalized cross-persona team templates for Due Diligence, Launch, Decision, and Research |
+| **Paid guide** | How to build your own version — mental models, design decisions, persona writing, and team composition |
 
 ---
 
