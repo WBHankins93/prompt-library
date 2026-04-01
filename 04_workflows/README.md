@@ -112,6 +112,13 @@ Workflows reference and orchestrate those components — they do not redefine th
 | [📣 Content Marketing Strategy](content-marketing-strategy.md) | 5 | 3–4 hrs | Marketing Mastermind | ✅ Active |
 | [🔭 Competitive Landscape Analysis](competitive-landscape.md) | 4 | 2–3 hrs | Pattern Seer | ✅ Active |
 
+
+### 🧠 Systems
+
+| Workflow | Stages | Time | Lead Persona | Status |
+|----------|--------|------|--------------|--------|
+| [🧠 AI Marketing Operating System](ai-marketing-operating-system.md) | 8 | 6–10 hrs | Marketing Mastermind + Systems Architect | ✅ Active |
+
 ### 🔬 Research
 
 | Workflow | Stages | Time | Lead Persona | Status |

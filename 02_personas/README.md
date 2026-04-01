@@ -10,6 +10,18 @@ These personas are not prompts in isolation. They are **opinionated judgment len
 
 ---
 
+
+## Runtime Efficiency Rule
+
+Each persona file includes a short **Golden Rules (Always Active)** block as a compact baseline in constrained contexts.
+
+For deeper context and edge cases, use:
+- `00_foundation/golden-rules.md` (compact baseline)
+- `00_foundation/foundation.md` (full reasoning and research standard)
+- `01_response-standards/response-standards.md` (full output standard)
+
+---
+
 ## How Personas Are Used
 
 | Property | What It Means |
