@@ -34,8 +34,11 @@ The numbered directories form the backbone of this system, in dependency load or
 | 📋 | [`03_tasks/`](03_tasks/) | Ready-to-use prompts for everyday life |
 | 🔄 | [`04_workflows/`](04_workflows/) | Composed multi-stage playbooks — 12 workflows |
 | 🧩 | [`05_personal/`](05_personal/) | Personal persona customizations and team routing |
+| 🛠️ | [`06-internal-assets/`](06-internal-assets/) | Operational docs, quality assets, schemas, and release checklists |
 
 > 🔼 **Load order matters.** Foundation loads before standards. Standards load before personas. Personas activate before tasks run. The sequence is the system.
+
+> Note: `06-internal-assets/` is maintenance infrastructure, not runtime prompt context.
 
 ---
 
@@ -197,6 +200,8 @@ No technical background required to use the tasks. The persona and foundation la
 2. Copy a prompt and customize it
 3. Done.
 
+> Working with limited context or upload constraints? Use [`00_foundation/golden-rules.md`](00_foundation/golden-rules.md) plus one persona/task.
+
 ### 🔍 Path 2: "I want to understand the system"
 1. Read [`00_foundation/foundation.md`](00_foundation/foundation.md)
 2. Explore [`02_personas/`](02_personas/) to see expert lenses
@@ -267,10 +272,10 @@ Dramatically expanded the persona library and built out the workflow catalog acr
 
 ## License
 
-[Add your license here]
+This project is licensed under the MIT License. See [`LICENSE`](LICENSE).
 
 ---
 
 ## Contributing
 
-[Add contribution guidelines if you plan to accept contributions]
+See [`06-internal-assets/docs/contribution-policy.md`](06-internal-assets/docs/contribution-policy.md) for contribution and review expectations.
