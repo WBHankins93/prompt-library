@@ -13,7 +13,7 @@ These personas are not prompts in isolation. They are **opinionated judgment len
 
 ## Runtime Efficiency Rule
 
-Use `00_foundation/golden-rules.md` as the compact baseline in constrained contexts.
+Each persona file includes a short **Golden Rules (Always Active)** block as a compact baseline in constrained contexts.
 
 For deeper context and edge cases, use:
 - `00_foundation/golden-rules.md` (compact baseline)

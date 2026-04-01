@@ -25,3 +25,9 @@
 ## Rename Rule
 
 If a rename is needed, update references in READMEs and roadmap docs in the same change set.
+
+
+## References
+
+- Canonical standard: `06-internal-assets/docs/naming-standard.md`
+- Fast review checklist: `06-internal-assets/docs/naming-quick-checklist.md`
