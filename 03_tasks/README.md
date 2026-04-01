@@ -2,9 +2,7 @@
 
 ## Purpose
 
-The `tasks/` directory contains self-contained, ready-to-use prompts designed for everyday non-technical users.
-
-These are complete prompts you can **copy and use immediately** with any AI assistant to accomplish specific real-world tasks.
+The `tasks/` directory contains self-contained, ready-to-use prompts you can **copy and use immediately** with any AI assistant. Most categories are written for everyday, non-technical use; **`commercial/`** and **`tech-engineer/`** assume professional services or engineering context.
 
 ---
 
@@ -47,6 +45,8 @@ Tasks are **not**:
 | 📄 **Documents** | Resumes, cover letters, professional documents |
 | ⚡ **Productivity** | Complex productivity systems, habit formation, workflow optimization |
 | 🎯 **Decision-Making** | Purchase decisions, career choices, life changes |
+| 💼 **Commercial** | Client onboarding, pricing and proposals for services |
+| ⚙️ **Tech engineer** | Build, deploy, CI/CD, security, monitoring, scraping — assumes technical context |
 
 ---
 
@@ -114,4 +114,4 @@ When creating a new task:
 | **Accessible** | No technical jargon or assumptions |
 | **Effective** | Produce useful, actionable results |
 
-> If a task requires technical knowledge or complex setup, it belongs in `instructions/` instead.
+> Engineering-focused prompts live in **`tech-engineer/`** — they assume you are comfortable with repos, hosting, and tooling. If a task is internal runbook material for a specific codebase rather than a reusable prompt, it may belong in project `docs/` instead.

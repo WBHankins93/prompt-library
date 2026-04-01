@@ -54,6 +54,8 @@ The `03_tasks/` directory contains prompts you can copy and use immediately:
 | 🎯 **Decision-Making** | Purchase decisions |
 | 🤝 **Helping** | Mentoring, teaching |
 | 📁 **Organization** | File naming, system design |
+| 💼 **Commercial** | Client onboarding, pricing and proposals |
+| ⚙️ **Tech engineer** | Build and test, CI/CD, deployment, security, monitoring, web scraping |
 
 **[Browse all tasks →](03_tasks/)**
 
