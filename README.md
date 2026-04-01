@@ -32,7 +32,7 @@ The numbered directories form the backbone of this system, in dependency load or
 | 📐 | [`01_response-standards/`](01_response-standards/) | Output quality and expression discipline |
 | 👤 | [`02_personas/`](02_personas/) | Expert judgment lenses — 50 personas across 7 domains |
 | 📋 | [`03_tasks/`](03_tasks/) | Ready-to-use prompts for everyday life |
-| 🔄 | [`04_workflows/`](04_workflows/) | Composed multi-stage playbooks — 12 workflows |
+| 🔄 | [`04_workflows/`](04_workflows/) | Composed multi-stage playbooks — 13 workflows |
 | 🧩 | [`05_personal/`](05_personal/) | Personal persona customizations and team routing |
 | 🛠️ | [`06-internal-assets/`](06-internal-assets/) | Operational docs, quality assets, schemas, and release checklists |
 
@@ -90,7 +90,7 @@ Each persona represents a domain expert with specific knowledge, biases, and aut
 
 **For goals that require more than one prompt.**
 
-Workflows run as a single AI conversation — no copy-pasting between stages. Each stage builds on the previous. **12 workflows** organized by domain.
+Workflows run as a single AI conversation — no copy-pasting between stages. Each stage builds on the previous. **13 workflows** organized by domain.
 
 ### Life & Career
 
@@ -110,6 +110,7 @@ Workflows run as a single AI conversation — no copy-pasting between stages. Ea
 | [🏪 Small Business Acquisition](04_workflows/small-business-acquisition.md) | 5 | Quality assessment → financials → legal/risk → red team → offer strategy |
 | [🧪 Product Validation](04_workflows/product-validation.md) | 5 | Hypothesis → market reality → customer/channel → red team → MVP |
 | [📣 Content Marketing Strategy](04_workflows/content-marketing-strategy.md) | 5 | Audience + positioning → voice → channel → plan → launch |
+| [🧠 AI Marketing Operating System](04_workflows/ai-marketing-operating-system.md) | 8 | Strategy → research → content → creative → production → distribution → data loop |
 | [🔭 Competitive Landscape](04_workflows/competitive-landscape.md) | 4 | Landscape framing → competitor assessment → positioning → strategy |
 
 ### Research
@@ -252,7 +253,7 @@ Dramatically expanded the persona library and built out the workflow catalog acr
 
 **Library after MVP 2:**
 - **50 personas** across 7 domains
-- **12 workflows** covering life, career, business, and research decisions
+- **13 workflows** covering life, career, business, and research decisions
 - Full `roadmap.md` documenting all phases
 
 ---

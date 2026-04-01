@@ -218,6 +218,18 @@ Final documentation pass reflecting the full MVP2 build.
 
 ---
 
+## Post-MVP2 Additions
+
+### Workflow Additions
+
+| Workflow | Stages | Lead Persona | File |
+|----------|--------|--------------|------|
+| AI Marketing Operating System | 8 | Marketing Mastermind + Systems Architect | `04_workflows/ai-marketing-operating-system.md` |
+
+*Library current state: 50 personas · 13 workflows*
+
+---
+
 ## MVP 3 — Candidates (Not Scoped)
 
 The following represent potential next phases. Not committed, not sequenced.
