@@ -30,7 +30,7 @@ The numbered directories form the backbone of this system, in dependency load or
 |-------|-----------|--------------|
 | 🧱 | [`00_foundation/`](00_foundation/) | Identity, research, and reasoning standards |
 | 📐 | [`01_response-standards/`](01_response-standards/) | Output quality and expression discipline |
-| 👤 | [`02_personas/`](02_personas/) | Expert judgment lenses — 50 personas across 7 domains |
+| 👤 | [`02_personas/`](02_personas/) | Expert judgment lenses — 80 personas across 9 domains |
 | 📋 | [`03_tasks/`](03_tasks/) | Ready-to-use prompts for everyday life |
 | 🔄 | [`04_workflows/`](04_workflows/) | Composed multi-stage playbooks — 13 workflows |
 | 🧩 | [`05_personal/`](05_personal/) | Personal persona customizations and team routing |
@@ -68,7 +68,7 @@ The `03_tasks/` directory contains prompts you can copy and use immediately:
 
 **Get specialized advice from expert perspectives.**
 
-Each persona represents a domain expert with specific knowledge, biases, and authority. They are composable — activate one or several depending on your situation. **50 personas** across 7 domains.
+Each persona represents a domain expert with specific knowledge, biases, and authority. They are composable — activate one or several depending on your situation. **80 personas** across 9 domains.
 
 | Domain | Examples |
 |--------|---------|
@@ -77,10 +77,12 @@ Each persona represents a domain expert with specific knowledge, biases, and aut
 | 📈 **Commercial** | Revenue Multiplier, Marketing Mastermind, The Closer |
 | 🎨 **Creative** | Design Guru, Storyteller, Inner Voice |
 | ⚖️ **Advisory** | Red Team, Finance Dragon, Legal Advisor, Decision Anchor, Self-Made Investor, Executive Coach |
+| 🧑‍🏫 **Coaches** | Resume Architect, Engineering Resume Coach, Federal Resume Coach |
 | 🧭 **Orientation** | Wayfinder, Explorer-Scholar, Ignition Coach |
+| 📱 **Socials** | Content Strategist, Engagement Engine, Instagram Growth Strategist |
 | 🎯 **Specialist** | Career Strategist, Health Optimizer, Academic Coach, Writing Coach, Property Analyst, and more |
 
-**[Explore all 50 personas →](02_personas/)**
+**[Explore all 80 personas →](02_personas/)**
 
 **Want to make a persona your own?** See [`05_personal/`](05_personal/) for an example of how to fork a general persona for your specific context, voice, and constraints.
 
@@ -110,6 +112,7 @@ Workflows run as a single AI conversation — no copy-pasting between stages. Ea
 | [🏪 Small Business Acquisition](04_workflows/small-business-acquisition.md) | 5 | Quality assessment → financials → legal/risk → red team → offer strategy |
 | [🧪 Product Validation](04_workflows/product-validation.md) | 5 | Hypothesis → market reality → customer/channel → red team → MVP |
 | [📣 Content Marketing Strategy](04_workflows/content-marketing-strategy.md) | 5 | Audience + positioning → voice → channel → plan → launch |
+| [📦 Social Growth Platform Package Model](04_workflows/social-growth-platform-package-model.md) | 5 | Audience/value definition → package architecture → pricing logic → launch process → optimization loop |
 | [🧠 AI Marketing Operating System](04_workflows/ai-marketing-operating-system.md) | 8 | Strategy → research → content → creative → production → distribution → data loop |
 | [🔭 Competitive Landscape](04_workflows/competitive-landscape.md) | 4 | Landscape framing → competitor assessment → positioning → strategy |
 
