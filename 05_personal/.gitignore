@@ -1,0 +1,6 @@
+# Keep this folder local-only by default.
+# Anything added here stays out of GitHub unless explicitly unignored.
+*
+!.gitignore
+!README.md
+!persona-customization-guide.md
