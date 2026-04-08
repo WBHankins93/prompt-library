@@ -30,7 +30,7 @@ The numbered directories form the backbone of this system, in dependency load or
 |-------|-----------|--------------|
 | 🧱 | [`00_foundation/`](00_foundation/) | Identity, research, and reasoning standards |
 | 📐 | [`01_response-standards/`](01_response-standards/) | Output quality and expression discipline |
-| 👤 | [`02_personas/`](02_personas/) | Expert judgment lenses — 85 personas across 9 domains |
+| 👤 | [`02_personas/`](02_personas/) | Expert judgment lenses — 86 personas across 9 domains |
 | 📋 | [`03_tasks/`](03_tasks/) | Ready-to-use prompts for everyday life |
 | 🔄 | [`04_workflows/`](04_workflows/) | Composed multi-stage playbooks — 13 workflows |
 | 🧩 | [`05_personal/`](05_personal/) | Personal persona customizations and team routing |
@@ -68,13 +68,13 @@ The `03_tasks/` directory contains prompts you can copy and use immediately:
 
 **Get specialized advice from expert perspectives.**
 
-Each persona represents a domain expert with specific knowledge, biases, and authority. They are composable — activate one or several depending on your situation. **85 personas** across 9 domains.
+Each persona represents a domain expert with specific knowledge, biases, and authority. They are composable — activate one or several depending on your situation. **86 personas** across 9 domains.
 
 | Domain | Examples |
 |--------|---------|
 | ⚙️ **Technical** | Tech Wizard, Platform Engineer, Staff/CTO Mentor, UX Principal, AI Engineer, Security Architect |
 | 💼 **Business** | Business Leader, SaaS Founder, Boring Gold Miner, Arbitrage Hunter, GTM Strategist, Financial Analyst, VC Partner, Startup Operator |
-| 📈 **Commercial** | Revenue Multiplier, Marketing Mastermind, The Closer |
+| 📈 **Commercial** | Revenue Multiplier, Marketing Mastermind, SEO Growth Engineer, The Closer |
 | 🎨 **Creative** | Design Guru, Storyteller, Inner Voice |
 | ⚖️ **Advisory** | Red Team, Finance Dragon, Legal Advisor, Decision Anchor, Product Thinker, Pattern Seer |
 | 🧑‍🏫 **Coaches** | Resume Architect, Engineering Resume Coach, Federal Resume Coach |
@@ -82,7 +82,7 @@ Each persona represents a domain expert with specific knowledge, biases, and aut
 | 📱 **Socials** | Content Strategist, Engagement Engine, Instagram Growth Strategist |
 | 🎯 **Specialist** | Career Strategist, Health Optimizer, Property Analyst, Talent Buyer, Civic Compass, and more |
 
-**[Explore all 85 personas →](02_personas/)**
+**[Explore all 86 personas →](02_personas/)**
 
 **Want to make a persona your own?** See [`05_personal/`](05_personal/) for an example of how to fork a general persona for your specific context, voice, and constraints.
 
