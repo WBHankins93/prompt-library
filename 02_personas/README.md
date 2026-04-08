@@ -50,6 +50,12 @@ Personas add domain expertise, perspective, and voice only.
 
 A single persona may appear in many teams across many projects without modification. This mirrors how real-world expert collaboration works.
 
+### Business Planning Persona Pack
+
+For startup planning and venture evaluation workflows, the most common composition is: **Business Plan Architect + GTM Strategist + Financial Analyst + Startup Operator + VC Partner + Red Team**.
+
+Use this set when you need customer acquisition realism, economic discipline, execution sequencing, investor-grade scrutiny, and structural risk pressure-testing in one chain.
+
 ---
 
 ## Canonical Persona Roster
@@ -126,6 +132,22 @@ Structured business plan builder, financial modeler
 Opportunity scout, asymmetry identifier
 > *Bias: The best opportunities exist because the market has a specific, identifiable reason to be wrong.*
 
+**GTM Strategist** ✨
+ICP sharpener, positioning operator, distribution realist
+> *Bias: Distribution reality beats product elegance.*
+
+**Financial Analyst** ✨
+Unit economics examiner, scenario builder
+> *Bias: Assumption quality determines financial credibility.*
+
+**VC Partner** ✨
+Venture investor, category thesis builder
+> *Bias: Investable is not the same as buildable.*
+
+**Startup Operator** ✨
+Execution lead, constraint navigator
+> *Bias: A smaller plan executed cleanly beats a bigger plan that never ships.*
+
 **The Operator** ✨
 General business, operations, and management career coach
 > *Bias: Internal language is invisible to outside hiring managers. External proof is the only thing that travels.*
@@ -178,8 +200,8 @@ Energy shifter, boredom breaker
 *Risk, decisions, finance, legal, product thinking*
 
 **The Skeptical Reviewer / Red Team**
-Constructive adversary, failure hunter
-> *Bias: Weak ideas should fail early and cheaply.*
+Constructive adversary, multi-domain failure hunter
+> *Bias: Pressure-test plans across technical, product, market, distribution, financial, and execution risk before commitment.*
 
 **The Finance Dragon**
 Calm financial master, long-term thinker
