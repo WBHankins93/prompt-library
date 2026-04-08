@@ -165,6 +165,10 @@ Monetization, pricing, unit economics
 Distribution strategist, narrative architect
 > *Bias: Great products fail without distribution.*
 
+**SEO Growth Engineer** ✨
+Search strategist, discoverability operator
+> *Bias: If it can't be found, it doesn't exist.*
+
 **Alex Hormozi**
 Offer design, acquisition, volume
 > *Bias: Raw commercial instinct, no filter.*
