@@ -1,0 +1,518 @@
+[
+  {
+    "id": "decision-anchor",
+    "display_name": "The Decision Anchor",
+    "category": "Advisory",
+    "summary": "The Decision Anchor outcomes → practical guidance in advisory decisions"
+  },
+  {
+    "id": "finance-dragon",
+    "display_name": "Finance Dragon",
+    "category": "Advisory",
+    "summary": "Financial Strategist → Capital Protector, Long-Term Optimizer"
+  },
+  {
+    "id": "legal-advisor",
+    "display_name": "The Legal Advisor",
+    "category": "Advisory",
+    "summary": "Seasoned Counsel → Compliance Strategist, Risk Architect for SaaS and Startups"
+  },
+  {
+    "id": "pattern-seer",
+    "display_name": "The Pattern Seer",
+    "category": "Advisory",
+    "summary": "The Pattern Seer outcomes → practical guidance in advisory decisions"
+  },
+  {
+    "id": "product-thinker",
+    "display_name": "Product Thinker",
+    "category": "Advisory",
+    "summary": "Product Strategist → Value Filter, User Proxy"
+  },
+  {
+    "id": "red-team",
+    "display_name": "Red Team",
+    "category": "Advisory",
+    "summary": "Assumption Challenger → Risk Strategist, Failure Analyst"
+  },
+  {
+    "id": "the-self-made-investor",
+    "display_name": "The Self-Made Investor",
+    "category": "Advisory",
+    "summary": "Wealth Architect → Financial Independence Strategist, No-Nonsense Money Builder"
+  },
+  {
+    "id": "boring-gold-miner",
+    "display_name": "The Boring Gold Miner",
+    "category": "Business",
+    "summary": "Main Street Investor → Cash Flow Acquirer, Boring Business Specialist"
+  },
+  {
+    "id": "builder-refiner",
+    "display_name": "The Builder-Refiner",
+    "category": "Business",
+    "summary": "The Builder-Refiner outcomes → practical guidance in business decisions"
+  },
+  {
+    "id": "business-leader",
+    "display_name": "Business Leader",
+    "category": "Business",
+    "summary": "Builder → Operator, Empire Architect"
+  },
+  {
+    "id": "business-plan-architect",
+    "display_name": "The Business Plan Architect",
+    "category": "Business",
+    "summary": "Cross-Industry Consultant → Reader Advocate, Funding Strategist"
+  },
+  {
+    "id": "digital-business-operator",
+    "display_name": "Digital Business Operator",
+    "category": "Business",
+    "summary": "Digital Business Operator outcomes → practical guidance in business decisions"
+  },
+  {
+    "id": "financial-analyst",
+    "display_name": "Financial Analyst",
+    "category": "Business",
+    "summary": "Unit Economics Examiner → Scenario Builder, Capital Discipline Enforcer"
+  },
+  {
+    "id": "gtm-strategist",
+    "display_name": "GTM Strategist",
+    "category": "Business",
+    "summary": "ICP Sharpener → Positioning Operator, Distribution Realist"
+  },
+  {
+    "id": "saas-founder",
+    "display_name": "The SaaS Founder",
+    "category": "Business",
+    "summary": "Product Strategist → Non-Technical Industry Translator, Software Business Architect"
+  },
+  {
+    "id": "startup-operator",
+    "display_name": "Startup Operator",
+    "category": "Business",
+    "summary": "Execution Lead → Constraint Navigator, 90-Day Builder"
+  },
+  {
+    "id": "the-arbitrage-hunter",
+    "display_name": "The Arbitrage Hunter",
+    "category": "Business",
+    "summary": "Opportunity Scout → Asymmetry Identifier, Contrarian Analyst"
+  },
+  {
+    "id": "vc-partner",
+    "display_name": "VC Partner",
+    "category": "Business",
+    "summary": "Venture Investor → Category Thesis Builder, Return-Profile Judge"
+  },
+  {
+    "id": "venture-architect",
+    "display_name": "The Venture Architect",
+    "category": "Entrepreneurship",
+    "summary": "Serial Operator → System Builder, Open-Knowledge Strategist"
+  },
+  {
+    "id": "academic-cv-coach",
+    "display_name": "Academic CV Coach",
+    "category": "Coaches",
+    "summary": "Faculty Hiring Specialist → Academic Job Market Strategist, CV Architecture Expert"
+  },
+  {
+    "id": "creative-resume-coach",
+    "display_name": "Creative Resume Coach",
+    "category": "Coaches",
+    "summary": "Design Career Strategist → Portfolio-Resume Integration Specialist, Creative Hiring Insider"
+  },
+  {
+    "id": "engineering-resume-coach",
+    "display_name": "Engineering Resume Coach",
+    "category": "Coaches",
+    "summary": "Discipline Engineering Career Specialist → PE License Positioning Expert, AEC Hiring Insider"
+  },
+  {
+    "id": "executive-resume-coach",
+    "display_name": "Executive Resume Coach",
+    "category": "Coaches",
+    "summary": "C-Suite Career Strategist → Executive Search Insider, Board Profile Architect"
+  },
+  {
+    "id": "federal-resume-coach",
+    "display_name": "Federal Resume Coach",
+    "category": "Coaches",
+    "summary": "USAJOBS Specialist → Federal Hiring Process Navigator, GS-Level Positioning Expert"
+  },
+  {
+    "id": "finance-resume-coach",
+    "display_name": "Finance Resume Coach",
+    "category": "Coaches",
+    "summary": "Finance Hiring Insider → Wall Street Resume Specialist, Financial Services Positioning Expert"
+  },
+  {
+    "id": "healthcare-resume-coach",
+    "display_name": "Healthcare Resume Coach",
+    "category": "Coaches",
+    "summary": "Clinical Resume Specialist → Nursing Career Strategist, Healthcare Hiring Insider"
+  },
+  {
+    "id": "hospitality-resume-coach",
+    "display_name": "Hospitality Resume Coach",
+    "category": "Coaches",
+    "summary": "Industry Translator → Document Strategist, Operator-to-Market Bridge"
+  },
+  {
+    "id": "hr-resume-coach",
+    "display_name": "HR Resume Coach",
+    "category": "Coaches",
+    "summary": "Human Resources Career Specialist → People Operations Positioning Expert, SHRM Credential Advocate"
+  },
+  {
+    "id": "legal-resume-coach",
+    "display_name": "Legal Resume Coach",
+    "category": "Coaches",
+    "summary": "Legal Hiring Specialist → BigLaw Resume Strategist, In-House Counsel Positioning Expert"
+  },
+  {
+    "id": "marketing-resume-coach",
+    "display_name": "Marketing Resume Coach",
+    "category": "Coaches",
+    "summary": "Marketing Career Specialist → Growth Marketing Positioning Expert, Brand-to-Performance Resume Strategist"
+  },
+  {
+    "id": "nonprofit-resume-coach",
+    "display_name": "Nonprofit Resume Coach",
+    "category": "Coaches",
+    "summary": "Mission-Driven Career Specialist → Nonprofit Hiring Insider, Social Impact Positioning Expert"
+  },
+  {
+    "id": "operator-to-vendor-strategist",
+    "display_name": "Operator-to-Vendor Strategist",
+    "category": "Coaches",
+    "summary": "Career Pivot Strategist → Industry Bridge, On-Premise Pipeline Expert"
+  },
+  {
+    "id": "ops-resume-coach",
+    "display_name": "Ops Resume Coach",
+    "category": "Coaches",
+    "summary": "Supply Chain Career Specialist → Logistics Hiring Insider, Operations Impact Quantifier"
+  },
+  {
+    "id": "resume-architect",
+    "display_name": "Resume Architect",
+    "category": "Coaches",
+    "summary": "Resume Strategist → ATS Engineer, Impact Translator"
+  },
+  {
+    "id": "sales-resume-coach",
+    "display_name": "Sales Resume Coach",
+    "category": "Coaches",
+    "summary": "Revenue Career Specialist → Sales Hiring Insider, Quota-Attainment Positioning Expert"
+  },
+  {
+    "id": "tech-resume-coach",
+    "display_name": "Tech Resume Coach",
+    "category": "Coaches",
+    "summary": "Software Engineering Resume Specialist → FAANG-Level Screener, Technical Positioning Expert"
+  },
+  {
+    "id": "the-academic-coach",
+    "display_name": "The Academic Coach",
+    "category": "Specialist",
+    "summary": "Learning Strategist → Study Scientist, Performance Coach"
+  },
+  {
+    "id": "the-executive-coach",
+    "display_name": "The Executive Coach",
+    "category": "Advisory",
+    "summary": "Leadership Developer → People Systems Designer, Difficult Conversation Specialist"
+  },
+  {
+    "id": "the-ignition-coach",
+    "display_name": "The Ignition Coach",
+    "category": "Orientation",
+    "summary": "System Onboarder → Momentum Builder, First-Use Architect"
+  },
+  {
+    "id": "the-operator",
+    "display_name": "The Operator",
+    "category": "Business",
+    "summary": "General Business → Operations, and Management Career Coach"
+  },
+  {
+    "id": "the-writing-coach",
+    "display_name": "The Writing Coach",
+    "category": "Specialist",
+    "summary": "Clarity Architect → Argument Sharpener, Non-Fiction Craft Specialist"
+  },
+  {
+    "id": "trades-resume-coach",
+    "display_name": "Trades Resume Coach",
+    "category": "Coaches",
+    "summary": "Skilled Trades Career Specialist → Apprenticeship-to-Journeyman Positioning Expert, Vocational Credential Advocate"
+  },
+  {
+    "id": "alex-hormozi",
+    "display_name": "Alex Hormozi",
+    "category": "Commercial",
+    "summary": "Offer Architect → Volume Operator, Relentless Sharer of Hard-Won Knowledge"
+  },
+  {
+    "id": "marketing-mastermind",
+    "display_name": "Marketing Mastermind",
+    "category": "Commercial",
+    "summary": "Growth Strategist → Distribution Architect, Narrative Engineer"
+  },
+  {
+    "id": "revenue-multiplier",
+    "display_name": "The Revenue Multiplier",
+    "category": "Commercial",
+    "summary": "Monetization Master → Offer Architect, Value Engineer"
+  },
+  {
+    "id": "seo-growth-engineer",
+    "display_name": "SEO Growth Engineer",
+    "category": "Commercial",
+    "summary": "Distribution Systems Thinker → Search Strategist, Growth Operator"
+  },
+  {
+    "id": "the-closer",
+    "display_name": "The Closer",
+    "category": "Commercial",
+    "summary": "B2B Sales Strategist → Deal Architect, Revenue Accelerator"
+  },
+  {
+    "id": "design-guru",
+    "display_name": "Design Guru",
+    "category": "Creative",
+    "summary": "Taste Maker → Visual Strategist, Aesthetic Guardian"
+  },
+  {
+    "id": "inner-voice",
+    "display_name": "Inner Voice",
+    "category": "Creative",
+    "summary": "Inner Voice outcomes → practical guidance in creative decisions"
+  },
+  {
+    "id": "playful-disruptor",
+    "display_name": "The Playful Disruptor",
+    "category": "Creative",
+    "summary": "The Playful Disruptor outcomes → practical guidance in creative decisions"
+  },
+  {
+    "id": "storyteller",
+    "display_name": "Creative Director / Storyteller",
+    "category": "Creative",
+    "summary": "Meaning Maker → Narrative Architect, Creative Integrator"
+  },
+  {
+    "id": "explorer-scholar",
+    "display_name": "The Explorer-Scholar",
+    "category": "Orientation",
+    "summary": "The Explorer-Scholar outcomes → practical guidance in orientation decisions"
+  },
+  {
+    "id": "nurturing-steward",
+    "display_name": "The Nurturing Steward",
+    "category": "Orientation",
+    "summary": "The Nurturing Steward outcomes → practical guidance in orientation decisions"
+  },
+  {
+    "id": "wayfinder",
+    "display_name": "The Wayfinder",
+    "category": "Orientation",
+    "summary": "The Wayfinder outcomes → practical guidance in orientation decisions"
+  },
+  {
+    "id": "brand-positioning-editor",
+    "display_name": "Brand Positioning Editor",
+    "category": "Socials",
+    "summary": "Authority Calibrator → Precision Writer, Voice Refiner"
+  },
+  {
+    "id": "content-strategist",
+    "display_name": "Content Strategist",
+    "category": "Commercial",
+    "summary": "Content Architect → Platform Strategist, Pipeline Builder"
+  },
+  {
+    "id": "engagement-engine",
+    "display_name": "Engagement Engine",
+    "category": "Commercial",
+    "summary": "Community Builder → Conversation Architect, Relationship Operator"
+  },
+  {
+    "id": "faceless-content-architect",
+    "display_name": "Faceless Content Architect",
+    "category": "Socials",
+    "summary": "Format Adapter → Visual Planner, Low-Lift Producer"
+  },
+  {
+    "id": "instagram-growth-strategist",
+    "display_name": "Instagram Growth Strategist",
+    "category": "Socials",
+    "summary": "Niche Analyst → Pattern Mapper, Idea Architect"
+  },
+  {
+    "id": "instagram-retention-optimizer",
+    "display_name": "Instagram Retention Optimizer",
+    "category": "Socials",
+    "summary": "Sequence Editor → Friction Remover, Completion-Rate Specialist"
+  },
+  {
+    "id": "instagram-viral-copywriter",
+    "display_name": "Instagram Viral Copywriter",
+    "category": "Socials",
+    "summary": "Hook Engineer → Scroll-Stop Specialist, Clarity-First Writer"
+  },
+  {
+    "id": "post-writer",
+    "display_name": "Post Writer",
+    "category": "Commercial",
+    "summary": "Platform Copywriter → Voice Executor, Format Specialist"
+  },
+  {
+    "id": "signal-reader",
+    "display_name": "Signal Reader",
+    "category": "Commercial",
+    "summary": "Performance Analyst → Pattern Identifier, Strategy Calibrator"
+  },
+  {
+    "id": "social-growth-lead",
+    "display_name": "Social Growth Lead",
+    "category": "Socials",
+    "summary": "Portfolio Strategist → Channel Allocator, System Conductor"
+  },
+  {
+    "id": "threads-growth-strategist",
+    "display_name": "Threads Growth Strategist",
+    "category": "Socials",
+    "summary": "Conversation Architect → POV Builder, Network Amplifier"
+  },
+  {
+    "id": "tiktok-growth-strategist",
+    "display_name": "TikTok Growth Strategist",
+    "category": "Socials",
+    "summary": "Short-Form Systems Designer → Retention Planner, Test Operator"
+  },
+  {
+    "id": "oregon-specialist",
+    "display_name": "The Oregon Specialist",
+    "category": "Specialist",
+    "summary": "The Oregon Specialist outcomes → practical guidance in specialist decisions"
+  },
+  {
+    "id": "the-career-strategist",
+    "display_name": "The Career Strategist",
+    "category": "Specialist",
+    "summary": "Career Architect → Negotiation Coach, Market Positioning Expert"
+  },
+  {
+    "id": "the-civic-compass",
+    "display_name": "The Civic Compass",
+    "category": "Specialist",
+    "summary": "Local Government Navigator → Policy Decoder, Civic Engagement Strategist"
+  },
+  {
+    "id": "the-curious-scientist",
+    "display_name": "The Curious Scientist",
+    "category": "Specialist",
+    "summary": "Scientific Thinker → Assumption Challenger, Everyday Epistemologist"
+  },
+  {
+    "id": "the-health-optimizer",
+    "display_name": "The Health Optimizer",
+    "category": "Specialist",
+    "summary": "Evidence-Based Health Coach → Systems Thinker, Practical Nutritionist"
+  },
+  {
+    "id": "the-home-chef",
+    "display_name": "The Home Chef",
+    "category": "Specialist",
+    "summary": "Culinary Strategist → Technique Teacher, Kitchen Systems Builder"
+  },
+  {
+    "id": "the-maker",
+    "display_name": "The Maker",
+    "category": "Specialist",
+    "summary": "Craftsperson → Materials Expert, Build Strategist"
+  },
+  {
+    "id": "the-naturalist",
+    "display_name": "The Naturalist",
+    "category": "Specialist",
+    "summary": "Field Biologist → Ecosystem Reader, Nature Educator"
+  },
+  {
+    "id": "the-property-analyst",
+    "display_name": "The Property Analyst",
+    "category": "Specialist",
+    "summary": "Home Inspector → Construction Expert, Buyer's Advocate"
+  },
+  {
+    "id": "the-researcher",
+    "display_name": "The Researcher",
+    "category": "Specialist",
+    "summary": "Research Methodologist → Source Analyst, Evidence Synthesizer"
+  },
+  {
+    "id": "the-talent-buyer",
+    "display_name": "The Talent Buyer",
+    "category": "Specialist",
+    "summary": "Venue Booker → Deal Architect, Live Music Industry Insider"
+  },
+  {
+    "id": "travel-insider",
+    "display_name": "Travel Insider",
+    "category": "Specialist",
+    "summary": "Industry Insider → Value Maximizer, Travel Strategist"
+  },
+  {
+    "id": "platform-mentor",
+    "display_name": "Platform Engineer Mentor",
+    "category": "Technical",
+    "summary": "Senior Systems Engineer → Reliability Guide, Career Sherpa"
+  },
+  {
+    "id": "solution-architect-mentor",
+    "display_name": "Solutions Architect Mentor",
+    "category": "Technical",
+    "summary": "Enterprise Bridge Builder → Technical Translator, Customer Champion"
+  },
+  {
+    "id": "staff-cto-mentor",
+    "display_name": "Staff Engineer / Founding CTO Mentor",
+    "category": "Technical",
+    "summary": "Battle-Hardened Generalist → Indie Hacker, Career Accelerator"
+  },
+  {
+    "id": "systems-architect",
+    "display_name": "The Systems Architect",
+    "category": "Technical",
+    "summary": "MRR Builder → Productization Expert, Passive Income Engineer"
+  },
+  {
+    "id": "tech-wizard",
+    "display_name": "Tech Wizard",
+    "category": "Technical",
+    "summary": "Friendly Genius → Systems Thinker, Technical Mentor"
+  },
+  {
+    "id": "the-ai-engineer",
+    "display_name": "The AI Engineer",
+    "category": "Technical",
+    "summary": "AI Systems Architect → LLM Product Builder, Evaluation Strategist"
+  },
+  {
+    "id": "the-security-architect",
+    "display_name": "The Security Architect",
+    "category": "Technical",
+    "summary": "Threat Modeler → Secure Systems Designer, Compliance Strategist"
+  },
+  {
+    "id": "the-ux-principal",
+    "display_name": "The UX Principal",
+    "category": "Technical",
+    "summary": "Interaction Architect → Technical Design Authority, Product Experience Strategist"
+  }
+]

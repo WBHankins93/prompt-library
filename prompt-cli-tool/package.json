@@ -1,0 +1,30 @@
+{
+  "name": "persona-library",
+  "version": "0.1.0",
+  "description": "CLI scaffolding tool for selecting persona-library personas",
+  "type": "module",
+  "bin": {
+    "persona-library": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "generate:personas": "node scripts/generate-personas.mjs"
+  },
+  "keywords": [
+    "cli",
+    "personas",
+    "scaffolding"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "inquirer": "^12.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
