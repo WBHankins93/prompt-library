@@ -1,3 +1,13 @@
+---
+task: Pricing and Proposals
+category: commercial
+difficulty: advanced
+estimated_time: 45min
+optional_personas:
+  - revenue-multiplier
+  - the-closer
+---
+
 # Pricing and Proposals
 
 > How to price web development work so you stay profitable and clients feel they got value.
