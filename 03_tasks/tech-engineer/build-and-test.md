@@ -1,3 +1,13 @@
+---
+task: Build and Test
+category: tech-engineer
+difficulty: advanced
+estimated_time: 45min
+optional_personas:
+  - tech-wizard
+  - platform-mentor
+---
+
 # Build and Test
 
 > Standards for building web projects that don't break in production.

@@ -1,3 +1,13 @@
+---
+task: Client Onboarding
+category: commercial
+difficulty: intermediate
+estimated_time: 30min
+optional_personas:
+  - the-closer
+  - business-leader
+---
+
 # Client Onboarding
 
 > From first contact to kickoff. The process that determines whether a project succeeds or turns into a nightmare.
