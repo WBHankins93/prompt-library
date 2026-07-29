@@ -44,10 +44,10 @@ personas collapse into fewer, sharper skills.
   `the-security-architect`, `platform-mentor`, commercial tasks.)
 - ✅ **Wave B — Business & commercial.** business + commercial + advisory domains → pricing,
   proposals, GTM, decision/red-team skills.
-- ⬜ **Wave C — Broader tracks.** creative, coaches, socials, specialist, learning/decision tasks,
+- ✅ **Wave C — Broader tracks.** creative, coaches, socials, specialist, learning/decision tasks,
   workflows → career, research, product, content skills.
-- ⬜ For each wave: pick source → distill judgment → write to spec → self-validate → record `source:`.
-- ⬜ Fold `04_workflows/` in as multi-step skills or `references/` where they add depth.
+- ✅ For each wave: pick source → distill judgment → write to spec → self-validate → record `source:`.
+- ✅ Fold `04_workflows/` in as multi-step skills or `references/` where they add depth.
 
 ## Phase 4 — Community foundation ✅
 
