@@ -49,12 +49,12 @@ personas collapse into fewer, sharper skills.
 - ⬜ For each wave: pick source → distill judgment → write to spec → self-validate → record `source:`.
 - ⬜ Fold `04_workflows/` in as multi-step skills or `references/` where they add depth.
 
-## Phase 4 — Community foundation ⬜
+## Phase 4 — Community foundation ✅
 
-- ⬜ `CONTRIBUTING.md` — how to add a skill, the spec, the PR flow.
-- ⬜ `tools/validate.mjs` — enforce frontmatter/body rules from `skill-spec.md`; wire into CI
+- ✅ `CONTRIBUTING.md` — how to add a skill, the spec, the PR flow.
+- ✅ `tools/validate.mjs` — enforce frontmatter/body rules from `skill-spec.md`; wire into CI
   (GitHub Action on PR).
-- ⬜ PR template + skill authoring guide.
+- ✅ PR template + skill authoring guide.
 - ⬜ *(Deferred, per your call)* agent-assisted "paste into Claude → interview → draft → PR" flow;
   usage ranking; richer contributor profiles.
 
