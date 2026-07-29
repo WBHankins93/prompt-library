@@ -38,7 +38,7 @@ Build a `web/` Next.js app modeled on gtmskills.com. Updates needed:
 **Do not 1:1 port all 124 files** (87 personas + 22 tasks + 15 workflows). Curate down — many
 personas collapse into fewer, sharper skills.
 
-- 🚧 **Wave A — SE core.** Mine the technical + commercial personas/tasks for SE skills: technical
+- ✅ **Wave A — SE core.** Mine the technical + commercial personas/tasks for SE skills: technical
   demos, stakeholder navigation, objection handling, solution/architecture design, demo recovery,
   enablement/handoff. (Sources incl. `solution-architect-mentor`, `staff-cto-mentor`,
   `the-security-architect`, `platform-mentor`, commercial tasks.)
