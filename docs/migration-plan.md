@@ -42,7 +42,7 @@ personas collapse into fewer, sharper skills.
   demos, stakeholder navigation, objection handling, solution/architecture design, demo recovery,
   enablement/handoff. (Sources incl. `solution-architect-mentor`, `staff-cto-mentor`,
   `the-security-architect`, `platform-mentor`, commercial tasks.)
-- ⬜ **Wave B — Business & commercial.** business + commercial + advisory domains → pricing,
+- ✅ **Wave B — Business & commercial.** business + commercial + advisory domains → pricing,
   proposals, GTM, decision/red-team skills.
 - ⬜ **Wave C — Broader tracks.** creative, coaches, socials, specialist, learning/decision tasks,
   workflows → career, research, product, content skills.
