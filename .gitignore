@@ -29,6 +29,7 @@ Thumbs.db
 
 # Node modules (if any)
 node_modules/
+prompt-cli-tool/dist/
 
 # Python (if any)
 __pycache__/

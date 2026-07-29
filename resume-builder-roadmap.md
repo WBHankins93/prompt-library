@@ -1,7 +1,11 @@
 # Resume Builder — Product Roadmap
 
-> **Status**: Pre-build — persona foundation complete, architecture defined, awaiting build kickoff
+> **Status**: Historical product concept — not on the active repository roadmap
 > **Last Updated**: 2026-03-16
+
+This v1 persona-based concept is retained for provenance. If revived, its AI architecture should be
+rewritten around the Agent Skills registry. Active repository work is tracked in
+[`docs/migration-plan.md`](docs/migration-plan.md).
 
 ---
 

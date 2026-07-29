@@ -1,20 +1,14 @@
-export interface Persona {
-  id: string;
-  display_name: string;
-  category: string;
-  summary: string;
-}
-
-export interface TaskItem {
+export interface Skill {
   id: string;
   name: string;
+  title: string;
   category: string;
-  summary: string;
+  description: string;
+  tags: string[];
+  author: string;
+  path: string;
 }
 
-export interface ProjectConfig {
-  personas: string[];
-  tasks: string[];
-  foundation: string[];
-  response_standards: string[];
+export interface SkillsConfig {
+  skills: string[];
 }

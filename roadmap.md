@@ -1,5 +1,8 @@
 # Roadmap
 
+> **Historical v1 roadmap.** This document describes the prompt-and-persona library and is retained
+> for provenance. The active v2 work is tracked in [`docs/migration-plan.md`](docs/migration-plan.md).
+
 ## MVP 1 — Foundation
 
 > **Goal:** Establish a reusable, composable persona library with a solid foundation layer and initial content across all major domains.

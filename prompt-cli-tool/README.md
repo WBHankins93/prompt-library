@@ -1,78 +1,62 @@
-# prompt-cli-tool (v1)
+# Fieldskills CLI
 
-A TypeScript CLI for quickly scaffolding a persona-library project configuration.
+A small TypeScript CLI that reads the live `skills/` registry and lets you choose the Agent Skills
+to associate with a project.
 
-## Install & run
+## Install and run
+
+Run the command from the repository root so it can discover `skills/**/SKILL.md`:
 
 ```bash
 cd prompt-cli-tool
 npm install
 npm run build
-node dist/index.js init
+cd ..
+node prompt-cli-tool/dist/index.js init
 ```
 
 You can also link it globally:
 
 ```bash
+cd prompt-cli-tool
 npm link
-persona-library init
+cd ..
+fieldskills init
 ```
 
-## What `init` includes
+## What `init` does
 
-- Interactive multi-select for **all personas** in `02_personas/`, grouped by category.
-- Interactive multi-select for **tasks** from `03_tasks/` (you pick what to include).
-- Automatic inclusion of **foundation** docs from `00_foundation/`.
-- Automatic inclusion of **response standards** from `01_response-standards/`.
-- **Workflows are intentionally not included in v1 output right now.**
+- Discovers every `skills/<author>/<name>/SKILL.md` file at runtime.
+- Reads its frontmatter without maintaining a generated metadata copy.
+- Groups skills by category in an interactive multi-select.
+- Writes `skills-config.json` with stable `author/name` identifiers.
 
-## Example terminal output
+Example output:
 
 ```text
-? Select personas for this project
-❯◉ Technical
- ◉ Tech Wizard              Friendly Genius → Systems Thinker, Technical Mentor
- ◯ The AI Engineer          AI Systems Architect → LLM Product Builder, Evaluation Strategist
+? Select skills for this project
+ discovery
+ ◉ Run technical discovery  Use when preparing for, running, or debriefing…
+ poc-design
+ ◯ Scope a POC              Use when turning discovery into a bounded…
 
-? Select tasks for this project
-❯◉ Documents
- ◉ Resume Review            Prompt template → documents execution
- ◯ Cover Letter             Prompt template → documents execution
+Selected skills:
+- ben-hankins/run-technical-discovery
 
-Selected personas:
-- tech-wizard
-
-Selected tasks:
-- 03_tasks/documents/resume-review.md
-
-Automatically included resources:
-- foundation: 4
-- response standards: 1
-
-Wrote project-config.json at /your/path/project-config.json
+Wrote skills-config.json at /your/repository/skills-config.json
 ```
 
-## Regenerating persona metadata
-
-Personas are rendered from metadata at `src/data/personas.json`. To refresh from `02_personas/**`:
-
-```bash
-npm run generate:personas
-```
+Use `--no-write-config` to preview a selection without creating the file.
 
 ## File structure
 
 ```text
 prompt-cli-tool/
-├── package.json                 # Node package + CLI entry definition
-├── tsconfig.json                # TypeScript compiler config
-├── scripts/
-│   └── generate-personas.mjs    # Builds persona metadata from 02_personas/**/*.md
+├── package.json
+├── tsconfig.json
 └── src/
-    ├── index.ts                 # CLI setup + init command registration
-    ├── types.ts                 # Shared persona/config/task types
-    ├── commands/
-    │   └── init.ts              # Persona + task pickers + config writer
-    └── data/
-        └── personas.json        # Persona metadata rendered by the CLI
+    ├── index.ts
+    ├── types.ts
+    └── commands/
+        └── init.ts
 ```
