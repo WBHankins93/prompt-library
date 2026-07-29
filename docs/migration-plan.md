@@ -19,21 +19,21 @@ Living document. Tracks the updates needed to complete the move described in
 
 ---
 
-## Phase 2 — Next.js site ⬜
+## Phase 2 — Next.js site 🚧
 
 Build a `web/` Next.js app modeled on gtmskills.com. Updates needed:
 
-- ⬜ Scaffold Next.js (App Router) + Tailwind in `web/`.
-- ⬜ Build-time loader that reads `skills/**/SKILL.md` + `author.md` (gray-matter frontmatter) into a
+- ✅ Scaffold Next.js (App Router) + Tailwind in `web/`.
+- ✅ Build-time loader that reads `skills/**/SKILL.md` + `author.md` (gray-matter frontmatter) into a
   typed registry. This **replaces the role of** `prompt-cli-tool/scripts/generate-personas.mjs`
-  (which currently emits `personas.json` from `02_personas/`).
-- ⬜ Pages: home (SE-led hero + featured), category browse, skill detail (rendered markdown +
+  (which previously emitted `personas.json` from `02_personas/`).
+- ✅ Pages: home (SE-led hero + featured), category browse, skill detail (rendered markdown +
   frontmatter), author profile. ⌘K search.
-- ⬜ Information architecture: SE categories first (discovery, poc-design, technical-demos,
+- ✅ Information architecture: SE categories first (discovery, poc-design, technical-demos,
   stakeholder-navigation, solution-design, enablement, objection-handling), broader tracks below.
 - ⬜ Deploy to Vercel; wire custom domain (**decision needed:** domain name).
 
-## Phase 3 — Migration waves 🚧
+## Phase 3 — Migration waves ✅
 
 **Do not 1:1 port all 124 files** (87 personas + 22 tasks + 15 workflows). Curate down — many
 personas collapse into fewer, sharper skills.
@@ -69,8 +69,6 @@ personas collapse into fewer, sharper skills.
 
 ## Open decisions for you
 
-1. Reaction to the two pilot skills — voice, density, structure: keep as the template?
-2. `author.md` details (avatar / LinkedIn / company).
-3. Archive location for v1 (in-repo `archive/` vs. tag/branch).
-4. Site domain name.
-5. Curation aggressiveness — how ruthlessly to collapse 124 v1 files into fewer skills.
+1. `author.md` details (avatar / LinkedIn / company).
+2. Archive location for v1 (in-repo `archive/` vs. tag/branch).
+3. Site domain name and production deployment.
