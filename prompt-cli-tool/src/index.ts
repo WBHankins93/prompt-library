@@ -5,14 +5,14 @@ import { runInit } from "./commands/init.js";
 const program = new Command();
 
 program
-  .name("persona-library")
-  .description("Scaffold persona-library project config with a fast persona picker")
-  .version("0.1.0");
+  .name("fieldskills")
+  .description("Select Agent Skills from the Fieldskills registry")
+  .version("0.2.0");
 
 program
   .command("init")
-  .description("Select personas and create project-config.json")
-  .option("--no-write-config", "Skip writing project-config.json")
+  .description("Select skills and create skills-config.json")
+  .option("--no-write-config", "Skip writing skills-config.json")
   .action(async (options: { writeConfig: boolean }) => {
     await runInit({ writeConfig: options.writeConfig });
   });

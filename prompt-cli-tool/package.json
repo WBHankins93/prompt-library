@@ -1,21 +1,20 @@
 {
-  "name": "persona-library",
-  "version": "0.1.0",
-  "description": "CLI scaffolding tool for selecting persona-library personas",
+  "name": "fieldskills-cli",
+  "version": "0.2.0",
+  "description": "CLI for selecting Agent Skills from the Fieldskills registry",
   "type": "module",
   "bin": {
-    "persona-library": "dist/index.js"
+    "fieldskills": "dist/index.js"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsx src/index.ts",
-    "start": "node dist/index.js",
-    "generate:personas": "node scripts/generate-personas.mjs"
+    "start": "node dist/index.js"
   },
   "keywords": [
     "cli",
-    "personas",
-    "scaffolding"
+    "agent-skills",
+    "fieldskills"
   ],
   "license": "MIT",
   "dependencies": {

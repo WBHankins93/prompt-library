@@ -58,13 +58,13 @@ personas collapse into fewer, sharper skills.
 - ⬜ *(Deferred, per your call)* agent-assisted "paste into Claude → interview → draft → PR" flow;
   usage ranking; richer contributor profiles.
 
-## Phase 5 — Repo restructure & cleanup ⬜
+## Phase 5 — Repo restructure & cleanup 🚧
 
 - ⬜ **Decision still open:** move v1 (`00_`–`05_`) into `archive/v1-prompt-library/` **or** keep it
   on a git tag/branch and slim the root. (You paused on this; nothing moved yet.)
-- ⬜ Rewrite `README.md` to lead with the Skills library + site; link `docs/evolution.md` as the story.
-- ⬜ Reconcile `prompt-cli-tool/` — retire or repoint at the new `skills/` registry.
-- ⬜ Reconcile the older planning docs (`roadmap.md`, `auto-routing-build-plan.md`,
+- ✅ Rewrite `README.md` to lead with the Skills library + site; link `docs/evolution.md` as the story.
+- ✅ Reconcile `prompt-cli-tool/` — repointed at the live `skills/` registry.
+- ✅ Reconcile the older planning docs (`roadmap.md`, `auto-routing-build-plan.md`,
   `resume-builder-roadmap.md`) — keep, archive, or fold into this plan.
 
 ## Open decisions for you

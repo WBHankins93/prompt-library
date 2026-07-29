@@ -1,12 +1,16 @@
 ---
 document: Auto-Routing System — Build Plan
 version: 1.0
-status: reference
+status: historical-reference
 created: 2026-03-03
 author: compiled from spec
 ---
 
 # Auto-Routing System — Build Plan
+
+> **Historical v1 plan.** This persona-routing design has been superseded by Agent Skills discovery
+> and activation. It remains useful source material; active work is tracked in
+> [`docs/migration-plan.md`](docs/migration-plan.md).
 
 **Goal:** `team-composition.md` reads any incoming request and auto-selects the right persona stack — no manual configuration per project. Routing to judgment personas, not capability modules.
 
